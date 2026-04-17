@@ -1,0 +1,60 @@
+<ng-container *transloco="let t; read: 'speech-to-text'">
+  <!-- Recording active or backend available -->
+  @if (backendConnected && !supportError) {
+    <ion-button
+      class="circle-icon"
+      fill="clear"
+      shape="round"
+      color="dark"
+      (click)="isRecording ? stop() : start()"
+      [attr.aria-label]="t(isRecording ? 'stop' : 'start')"
+      [matTooltip]="t(isRecording ? 'stop' : 'start')"
+      [matTooltipPosition]="matTooltipPosition"
+      [disabled]="isProcessing">
+      @if (isProcessing) {
+        <ion-icon name="hourglass" slot="icon-only" color="primary" />
+      } @else {
+        <ion-icon [name]="isRecording ? 'stop-circle-outline' : 'mic-outline'" slot="icon-only" color="primary" />
+      }
+    </ion-button>
+  } @else if (supportError === 'backend-unavailable') {
+    <!-- Backend not running -->
+    <ion-button
+      class="circle-icon"
+      fill="clear"
+      shape="round"
+      color="medium"
+      [attr.aria-label]="'Backend not available - Start Python server'"
+      [matTooltip]="'Speech recognition backend is not running. Please start the Python server on localhost:5000'"
+      [matTooltipPosition]="matTooltipPosition"
+      disabled>
+      <ion-icon name="alert-circle-outline" slot="icon-only" />
+    </ion-button>
+  } @else if (supportError === 'network-error') {
+    <!-- Network error - connection to Google servers failed -->
+    <ion-button
+      class="circle-icon"
+      fill="clear"
+      shape="round"
+      color="medium"
+      [attr.aria-label]="'Network error'"
+      matTooltip="Network error connecting to speech recognition service"
+      [matTooltipPosition]="matTooltipPosition"
+      disabled>
+      <ion-icon name="wifi-outline" slot="icon-only" />
+    </ion-button>
+  } @else {
+    <!-- If permission denied or other error -->
+    <ion-button
+      class="circle-icon"
+      fill="clear"
+      shape="round"
+      color="medium"
+      [attr.aria-label]="t(supportError || 'start')"
+      [matTooltip]="t(supportError || 'start')"
+      [matTooltipPosition]="matTooltipPosition"
+      disabled>
+      <ion-icon name="mic-off-outline" slot="icon-only" />
+    </ion-button>
+  }
+</ng-container>

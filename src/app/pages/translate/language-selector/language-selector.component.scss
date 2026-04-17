@@ -1,0 +1,71 @@
+@use '../../../../theme/breakpoints' as breakpoints;
+
+:host {
+  display: flex;
+  overflow: hidden;
+}
+
+/* Make language expansion menu show the correct icon */
+ion-button.menu-icon-button {
+  height: 100%;
+  margin: 0;
+
+  ion-icon {
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &[aria-expanded='true'] ion-icon {
+    transform: rotateZ(-180deg);
+  }
+}
+
+ion-button.menu-language-button {
+  display: none;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+@media #{breakpoints.$breakpoint-lt-md} {
+  ion-button.menu-icon-button,
+  ion-segment.language-segment {
+    display: none;
+  }
+  ion-button.menu-language-button {
+    display: block;
+  }
+}
+
+/* Segment styling - auto width based on content */
+ion-segment.language-segment {
+  width: fit-content;
+  min-width: auto;
+  flex: 0;
+
+  ion-segment-button {
+    --padding-start: 16px;
+    --padding-end: 16px;
+    min-width: auto;
+    width: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-weight: 400;
+    text-transform: none;
+
+    // Dark mode text color for active/checked button
+    @media (prefers-color-scheme: dark) {
+      --color-checked: var(--ion-color-primary-accessible-text);
+    }
+  }
+}
+
+::ng-deep .language-selector-menu {
+  max-height: calc(100vh - 64px - 68px - 48px) !important;
+}
+
+.wrap-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

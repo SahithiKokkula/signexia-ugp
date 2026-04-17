@@ -1,0 +1,56 @@
+<ion-header [translucent]="true" class="modern-header">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-title>Sign MT</ion-title>
+      </ion-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+    <ion-buttons slot="end">
+      @for (page of pages; track page.key) {
+        <ion-button [routerLink]="page.route" queryParamsHandling="preserve" fill="outline" shape="round" size="small">
+          {{ 'landing.' + page.key + '.title' | transloco }}
+        </ion-button>
+      }
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="modern-content">
+  <div class="container modern-container">
+    <!-- Hero Section with Input Mode Selection -->
+    <div class="hero-section">
+      <div class="input-mode-header">
+        <h1>{{ 'translate.title' | transloco }}</h1>
+      </div>
+      <div id="input-mode-group" class="mode-selector">
+        @if (spokenToSigned) {
+          <app-translate-input-button mode="text" icon="language" />
+        } @else {
+          <app-translate-input-button mode="webcam" icon="videocam" />
+          <app-translate-input-button mode="upload" icon="cloud-upload" />
+        }
+      </div>
+    </div>
+
+    <!-- Main Translation Card -->
+    <app-drop-pose-file>
+      <div id="translation-card" class="card-modern">
+        <div class="card-header">
+          <app-language-selectors />
+        </div>
+        <div class="card-content">
+          <div id="content" class="translation-area">
+            @if (spokenToSigned) {
+              <!-- Spoken to sign requires a text input and video output -->
+              <app-spoken-to-signed />
+            } @else {
+              <!-- Sign to spoken requires a video input and text output -->
+              <app-signed-to-spoken />
+            }
+          </div>
+        </div>
+      </div>
+    </app-drop-pose-file>
+  </div>
+</ion-content>

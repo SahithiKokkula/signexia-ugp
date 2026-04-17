@@ -1,0 +1,67 @@
+@forward './material.scss';
+@forward 'fonts/roboto.css';
+
+@forward './ionic';
+@forward './ionic-variables';
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header-md {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+body {
+  --mdc-typography-button-letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+  font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+
+  --app-divider-color: rgba(0, 0, 0, 0.08);
+  --app-tinted-background-color: #f8fafc;
+
+  @media (prefers-color-scheme: dark) {
+    background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+
+    --app-divider-color: rgba(255, 255, 255, 0.1);
+    --app-tinted-background-color: #1e293b;
+  }
+
+  &.embed {
+    ion-header,
+    ion-tab-bar,
+    #input-mode-group,
+    app-send-feedback {
+      display: none !important;
+    }
+  }
+}
+
+// Global ion-content layout for sticky footer
+ion-content::part(scroll) {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.actions-row {
+  position: absolute;
+  margin: 14px;
+  bottom: 0;
+  right: 0;
+  text-align: end;
+  width: calc(100% - 2 * 14px);
+}
+
+ion-header ion-button {
+  text-transform: none;
+}

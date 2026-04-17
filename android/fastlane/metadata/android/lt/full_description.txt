@@ -1,0 +1,1 @@
+Nesudėtingas vertimas į gestų kalbą naudojant pažangiausius realiojo laiko modelius. 

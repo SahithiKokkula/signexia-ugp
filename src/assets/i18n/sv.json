@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "sidan hittas inte",
+    "doesNotExist": "Tyvärr, sidan du letade efter finns inte.",
+    "errorLogged": "Vi har loggat felet och kommer att undersöka det.",
+    "goHome": "Gå till hemmet"
+  },
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Skift"
+  },
+  "translate": {
+    "title": "Teckenspråkstolk",
+    "language-selector": {
+      "detected": "{{lang}} - Upptäckt",
+      "detect": "Identifiera språk",
+      "more": "Flera språk"
+    },
+    "input": {
+      "text": "Text",
+      "webcam": "Webbkamera",
+      "upload": "Ladda upp"
+    },
+    "swapLanguages": "Byt språk",
+    "upload": {
+      "types": "Ladda upp en .mp4-, .ogv-- eller .webm-fil",
+      "browse": "Bläddra efter filer på datorn",
+      "title": "Välj en video"
+    },
+    "spoken-to-signed": {
+      "text": "Talat språk text",
+      "actions": {
+        "download": "Ladda ner översättning",
+        "copy": "Kopiera översättning",
+        "share": "Dela översättning"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Laddar mänsklig videomodell",
+          "generating": "Genererar video"
+        }
+      },
+      "placeholder": "Skriv text"
+    },
+    "description": "Enkel översättning av teckenspråk med banbrytande realtidsmodeller. ",
+    "suggestions": {
+      "translate-from": "Översätt från",
+      "did-you-mean": "Menade du"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Kopiera översättning"
+      }
+    },
+    "logo": "Tolk"
+  },
+  "landing": {
+    "try": "Översätt nu",
+    "about": {
+      "hero": {
+        "title": "Översätt mellan 40+ teckenspråk och talade språk i realtid.",
+        "img": "Exempel på liveöversättning mellan amerikanskt teckenspråk och engelska"
+      },
+      "direction": {
+        "spoken-to-signed": "Översätt från talat till teckenspråk",
+        "signed-to-spoken": "Eller från teckenspråk till talade språk"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Översättning i realtid",
+          "subtitle": "Översätt mellan 40+ teckenspråk och talade språk i realtid",
+          "description": "Vår app låter dig kommunicera naturligt och enkelt med vem som helst, var som helst, när som helst, på ditt eget teckenspråk."
+        },
+        "multilingual": {
+          "title": "Flerspråkig support",
+          "subtitle": "Översätt mellan olika teckenspråk och talade språk",
+          "description": "Vår app stöder flera teckenspråk och talade språk, så att du kan kommunicera med människor från olika länder och kulturer."
+        },
+        "appearance": {
+          "title": "Anpassningsbart utseende",
+          "subtitle": "Våra fotorealistiska teckenspråksavatarer erbjuder ett brett utbud av anpassningsalternativ för att passa dina specifika behov.",
+          "description": "Oavsett om du vill skapa en avatar som ser ut som dig eller skapa en unik karaktär, låter våra anpassningsalternativ dig uttrycka dig på ett sätt som känns äkta och sant för dig."
+        },
+        "open-source": {
+          "title": "Open Source-projekt",
+          "subtitle": "Signexia är ett projekt med öppen källkod, som låter samhället bidra och förbättra dess funktioner.",
+          "description": "Genom att dela vår källkod strävar vi efter att främja samarbete och transparens. "
+        },
+        "offline": {
+          "title": "Offline funktionalitet",
+          "subtitle": "Signexia fungerar överallt, även offline på ett flygplan.",
+          "description": "Oavsett om du reser, i ett avlägset område eller utan internet, säkerställer vår app att du alltid kan översätta talat eller skrivet språk till teckenspråk, och ha viktiga kommunikationsverktyg till hands."
+        }
+      },
+      "title": "Om oss"
+    },
+    "contribute": {
+      "title": "Bidra"
+    },
+    "nav": {
+      "pages": "Navigera till andra sidor",
+      "legal": "Navigera till juridiska sidor"
+    }
+  },
+  "text-to-speech": {
+    "play": "Lyssna",
+    "cancel": "Sluta",
+    "unavailable": "Röstutgång är inte tillgängligt för det valda språket"
+  },
+  "speech-to-text": {
+    "start": "Översättning av röstinmatning",
+    "stop": "Stoppa översättning med röst",
+    "not-allowed": "Behöver tillstånd för att använda mikrofon",
+    "language-not-supported": "Det valda språket stöds inte",
+    "browser-not-supported": "Röstinmatning stöds inte i den här webbläsaren",
+    "service-not-allowed": "Behöver tillstånd för att använda taligenkänning"
+  },
+  "legal": {
+    "terms": {
+      "title": "Villkor"
+    },
+    "privacy": {
+      "title": "Sekretess"
+    },
+    "licenses": {
+      "title": "Programvara och licenser"
+    },
+    "title": "Rättslig"
+  },
+  "playground": {
+    "title": "Lekplats för teckenspråksbearbetning"
+  },
+  "benchmark": {
+    "title": "Benchmark",
+    "stats": {
+      "cld": {
+        "title": "Identifiering av talat språk",
+        "import": "Importmodul",
+        "load": "Ladda modell",
+        "find": "Identifiera text",
+        "create": "Skapa"
+      },
+      "pix2pix": {
+        "title": "Mänsklig Pose Viewer",
+        "init": "Arbetare Init",
+        "load": "Ladda modell",
+        "first-frame": "Första ramslutledning",
+        "frame": "Frame inferens"
+      },
+      "pose": {
+        "title": "Uppskattning av helkroppsställning",
+        "load": "Modellbelastning",
+        "first-frame": "Första ramslutledning",
+        "frame": "Frame inferens"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Kameran startar",
+      "turnedOff": "Kameran avstängd",
+      "notConnected": "Kameran är inte ansluten",
+      "permissionDenied": "Kameratillstånd nekad"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Stäng av kameran",
+        "off": "Slå på kameran"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Laddar uppskattning av position..."
+  },
+  "language-selector": {
+    "label": "Ändra språk eller region"
+  },
+  "settings": {
+    "detectSign": "Upptäck tecken",
+    "drawVideo": "Rita video",
+    "drawPose": "Rita Pose",
+    "drawSignWriting": "Rita teckenskrivning",
+    "animatePose": "Animera Pose",
+    "poseViewer": {
+      "pose": "Skelett",
+      "avatar": "Avatar",
+      "person": "Mänsklig"
+    },
+    "title": "inställningar",
+    "close": "Stäng inställningarna",
+    "support": {
+      "title": "Stöd",
+      "feedback": {
+        "title": "Respons",
+        "send": "Skicka feedback"
+      },
+      "about": {
+        "title": "Handla om"
+      }
+    },
+    "voice": {
+      "title": "Röst",
+      "input": {
+        "title": "Inmatning"
+      },
+      "output": {
+        "title": "Produktion"
+      }
+    },
+    "other": {
+      "title": "Övrig",
+      "offline": {
+        "title": "Off-line",
+        "files": {
+          "pix2pixGenerator": "Fotorealistisk mänsklig generator",
+          "pix2pixUpscaler": "Fotorealistisk mänsklig uppskalare",
+          "avatarGlb": "3D-avatar",
+          "avatarUsdz": "3D Avatar för AR på iOS",
+          "translation": "Översättning",
+          "translation.spokenToSigned": "Talat-till-signerad",
+          "translation.signedToSpoken": "Signerad till talat"
+        },
+        "actions": {
+          "toggle": "Växla {{label}}",
+          "download": "Ladda ner offlinemodell",
+          "delete": "Rensa offlinemodellcache",
+          "reDownload": "Ladda ner offlinemodell igen"
+        }
+      },
+      "appearance": {
+        "title": "Utseende",
+        "action": "Ändra utseende",
+        "random": "Få ett slumpmässigt foto",
+        "upload": "Ladda upp ditt eget foto"
+      }
+    }
+  },
+  "to": "{{a}} → {{b}}",
+  "languages.spoken": "Allt",
+  "countries.signed": "Allt"
+}

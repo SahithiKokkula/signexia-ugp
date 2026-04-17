@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "Page non trouvée",
+    "doesNotExist": "Désolé, la page que vous recherchez n'existe pas.",
+    "errorLogged": "Nous avons consigné l'erreur et nous l'examinerons.",
+    "goHome": "Aller à la maison"
+  },
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Maj"
+  },
+  "translate": {
+    "title": "Traducteur de Signes",
+    "language-selector": {
+      "detected": "{{lang}} - Détecté",
+      "detect": "Détecter la langue",
+      "more": "Plus de langues"
+    },
+    "input": {
+      "text": "Texte",
+      "webcam": "Webcam",
+      "upload": "Télécharger"
+    },
+    "swapLanguages": "Intervertir les langues",
+    "upload": {
+      "types": "Importez un .mp4, .ogv ou .webm.",
+      "browse": "Parcourir les fichiers sur votre ordinateur",
+      "title": "Choisissez une vidéo"
+    },
+    "spoken-to-signed": {
+      "text": "Texte en langue parlée",
+      "actions": {
+        "download": "Télécharger la traduction",
+        "copy": "Copier la traduction",
+        "share": "Partager la traduction"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Chargement du modèle vidéo humain",
+          "generating": "Génération de vidéo"
+        }
+      },
+      "placeholder": "Entrez du texte"
+    },
+    "description": "Traduction en langue des signes sans effort avec des modèles en temps réel de pointe. ",
+    "suggestions": {
+      "translate-from": "Traduit depuis",
+      "did-you-mean": "Vouliez-vous dire"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Copier la traduction"
+      }
+    },
+    "logo": "Traducteur"
+  },
+  "landing": {
+    "try": "Traduire maintenant",
+    "about": {
+      "hero": {
+        "title": "Traduisez entre plus de 40 langues signées et parlées en temps réel.",
+        "img": "Exemple de traduction en direct entre la langue des signes américaine et l'anglais"
+      },
+      "direction": {
+        "spoken-to-signed": "Traduire de la langue parlée à la langue des signes",
+        "signed-to-spoken": "Ou des langues signées aux langues parlées"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Traduction en temps réel",
+          "subtitle": "Traduisez entre plus de 40 langues signées et parlées en temps réel",
+          "description": "Notre application vous permet de communiquer naturellement et facilement avec n'importe qui, n'importe où, n'importe quand, dans votre propre langue des signes."
+        },
+        "multilingual": {
+          "title": "Prise en charge multilingue",
+          "subtitle": "Traduire entre différentes langues des signes et langues parlées",
+          "description": "Notre application prend en charge plusieurs langues des signes et langues parlées, afin que vous puissiez communiquer avec des personnes de différents pays et cultures."
+        },
+        "appearance": {
+          "title": "Apparence personnalisable",
+          "subtitle": "Nos avatars photo-réalistes en langue des signes offrent une large gamme d'options de personnalisation pour répondre à vos besoins spécifiques.",
+          "description": "Que vous souhaitiez créer un avatar qui vous ressemble ou créer un personnage unique, nos options de personnalisation vous permettent de vous exprimer d'une manière qui vous semble authentique et fidèle."
+        },
+        "open-source": {
+          "title": "Projet Open Source",
+          "subtitle": "Signexia est un projet open source, permettant à la communauté de contribuer et d'améliorer ses fonctionnalités.",
+          "description": "En partageant notre code source, nous visons à favoriser la collaboration et la transparence. "
+        },
+        "offline": {
+          "title": "Fonctionnalité hors ligne",
+          "subtitle": "Signexia fonctionne partout, même hors ligne dans un avion.",
+          "description": "Que vous soyez en voyage, dans une région éloignée ou sans Internet, notre application vous permet de toujours traduire la langue parlée ou écrite en langue des signes, en gardant les outils de communication essentiels à portée de main."
+        }
+      },
+      "title": "À propos de nous"
+    },
+    "contribute": {
+      "title": "Contribuer"
+    },
+    "nav": {
+      "pages": "Naviguer vers d'autres pages",
+      "legal": "Naviguer vers les pages légales"
+    }
+  },
+  "text-to-speech": {
+    "play": "Écouter",
+    "cancel": "Arrêt",
+    "unavailable": "La sortie vocale n'est pas disponible pour la langue sélectionnée"
+  },
+  "speech-to-text": {
+    "start": "Traduire avec la voix",
+    "stop": "Arrêter la traduction vocale",
+    "not-allowed": "Besoin d'une autorisation pour utiliser le microphone",
+    "language-not-supported": "La langue sélectionnée n'est pas prise en charge",
+    "browser-not-supported": "La saisie vocale n'est pas prise en charge sur ce navigateur",
+    "service-not-allowed": "Autorisation requise pour utiliser la reconnaissance vocale"
+  },
+  "legal": {
+    "terms": {
+      "title": "Modalités"
+    },
+    "privacy": {
+      "title": "Confidentialité"
+    },
+    "licenses": {
+      "title": "Logiciels et licences"
+    },
+    "title": "Légal"
+  },
+  "playground": {
+    "title": "Terrain de jeu pour le traitement de la langue des signes"
+  },
+  "benchmark": {
+    "title": "Référence",
+    "stats": {
+      "cld": {
+        "title": "Identification de la langue parlée",
+        "import": "Module d'importation",
+        "load": "Charger le modèle",
+        "find": "Identifier le texte",
+        "create": "Créer"
+      },
+      "pix2pix": {
+        "title": "Visionneuse de pose humaine",
+        "init": "Init du travailleur",
+        "load": "Charger le modèle",
+        "first-frame": "Inférence de la première image",
+        "frame": "Inférence de cadre"
+      },
+      "pose": {
+        "title": "Estimation de la pose complète du corps",
+        "load": "Charge du modèle",
+        "first-frame": "Inférence de la première image",
+        "frame": "Inférence de cadre"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Démarrage de la caméra",
+      "turnedOff": "Caméra éteinte",
+      "notConnected": "Caméra non connectée",
+      "permissionDenied": "Autorisation de caméra refusée"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Éteindre la caméra",
+        "off": "Allumer la caméra"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Chargement de l'estimation de la pose..."
+  },
+  "language-selector": {
+    "label": "Changer de langue ou de région"
+  },
+  "settings": {
+    "detectSign": "Détecter le signe",
+    "drawVideo": "Dessiner une vidéo",
+    "drawPose": "Dessiner la pose",
+    "drawSignWriting": "Dessiner l'écriture de signe",
+    "animatePose": "Animer la pose",
+    "poseViewer": {
+      "pose": "Squelette",
+      "avatar": "Avatar",
+      "person": "Humain"
+    },
+    "title": "Réglages",
+    "close": "Fermer les paramètres",
+    "support": {
+      "title": "Soutien",
+      "feedback": {
+        "title": "Retour d'information",
+        "send": "Envoyer des commentaires"
+      },
+      "about": {
+        "title": "À propos de"
+      }
+    },
+    "voice": {
+      "title": "Voix",
+      "input": {
+        "title": "Saisir"
+      },
+      "output": {
+        "title": "Production"
+      }
+    },
+    "other": {
+      "title": "Autre",
+      "offline": {
+        "title": "Hors ligne",
+        "files": {
+          "pix2pixGenerator": "Générateur humain photo-réaliste",
+          "pix2pixUpscaler": "Upscaler humain photo-réaliste",
+          "avatarGlb": "Avatar 3D",
+          "avatarUsdz": "Avatar 3D pour AR sur iOS",
+          "translation": "Traduction",
+          "translation.spokenToSigned": "Du parlé au signé",
+          "translation.signedToSpoken": "Signé à parlé"
+        },
+        "actions": {
+          "toggle": "Basculer {{label}}",
+          "download": "Télécharger le modèle hors ligne",
+          "delete": "Purger le cache du modèle hors ligne",
+          "reDownload": "Re-télécharger le modèle hors ligne"
+        }
+      },
+      "appearance": {
+        "title": "Apparence",
+        "action": "Modifier l'apparence",
+        "random": "Obtenez une photo au hasard",
+        "upload": "Téléchargez votre propre photo"
+      }
+    }
+  },
+  "to": "{{a}} → {{b}}",
+  "languages.spoken": "Tous",
+  "countries.signed": "Tous"
+}

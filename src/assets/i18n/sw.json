@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "Ukurasa haujapatikana",
+    "doesNotExist": "Samahani, ukurasa uliokuwa ukitafuta haupo.",
+    "errorLogged": "Tumeweka hitilafu na tutaichunguza.",
+    "goHome": "Nenda nyumbani"
+  },
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Shift"
+  },
+  "translate": {
+    "title": "Mfasiri wa Alama",
+    "language-selector": {
+      "detected": "{{lang}} - Imegunduliwa",
+      "detect": "Tambua lugha",
+      "more": "Lugha Zaidi"
+    },
+    "input": {
+      "text": "Matini",
+      "webcam": "Kamera ya wavuti",
+      "upload": "Pakia"
+    },
+    "swapLanguages": "Badilisha lugha",
+    "upload": {
+      "types": "Pakia faili yenye muundo wa .mp4, .ogv au .webm.",
+      "browse": "Vinjari kompyuta yako",
+      "title": "Chagua video"
+    },
+    "spoken-to-signed": {
+      "text": "Maandishi ya Lugha Iliyotamkwa",
+      "actions": {
+        "download": "Pakua Tafsiri",
+        "copy": "Nakili Tafsiri",
+        "share": "Shiriki Tafsiri"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Inapakia muundo wa video wa binadamu",
+          "generating": "Inazalisha video"
+        }
+      },
+      "placeholder": "Ingiza Maandishi"
+    },
+    "description": "Tafsiri ya Lugha ya Alama isiyo na Jitihada yenye Miundo ya Muda Halisi. ",
+    "suggestions": {
+      "translate-from": "Tafsiri kutoka",
+      "did-you-mean": "Ulimaanisha"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Nakili Tafsiri"
+      }
+    },
+    "logo": "Mfasiri"
+  },
+  "landing": {
+    "try": "Tafsiri sasa",
+    "about": {
+      "hero": {
+        "title": "Tafsiri kati ya lugha 40+ zilizotiwa sahihi na zinazozungumzwa katika muda halisi.",
+        "img": "Mfano wa tafsiri ya moja kwa moja kati ya Lugha ya Ishara ya Marekani na Kiingereza"
+      },
+      "direction": {
+        "spoken-to-signed": "Tafsiri kutoka lugha zinazozungumzwa hadi lugha za ishara",
+        "signed-to-spoken": "Au kutoka kwa lugha zilizotiwa sahihi hadi zinazozungumzwa"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Tafsiri ya Wakati Halisi",
+          "subtitle": "Tafsiri kati ya lugha 40+ zilizotiwa sahihi na zinazozungumzwa katika muda halisi",
+          "description": "Programu yetu hukuruhusu kuwasiliana kawaida na kwa urahisi na mtu yeyote, mahali popote, wakati wowote, katika lugha yako ya ishara."
+        },
+        "multilingual": {
+          "title": "Usaidizi wa Lugha nyingi",
+          "subtitle": "Tafsiri kati ya lugha tofauti za ishara na lugha zinazozungumzwa",
+          "description": "Programu yetu inasaidia lugha nyingi za ishara na lugha zinazozungumzwa, ili uweze kuwasiliana na watu kutoka nchi na tamaduni tofauti."
+        },
+        "appearance": {
+          "title": "Muonekano Unaoweza Kubinafsishwa",
+          "subtitle": "Avatar zetu za lugha ya ishara zinazoonyesha picha halisi hutoa chaguzi mbalimbali za kubinafsisha ili kukidhi mahitaji yako mahususi.",
+          "description": "Iwe unataka kuunda avatar inayofanana nawe au kuunda mhusika wa kipekee, chaguo zetu za kubinafsisha hukuruhusu kujieleza kwa njia inayohisi kuwa ya kweli na ya kweli kwako."
+        },
+        "open-source": {
+          "title": "Mradi wa Open Source",
+          "subtitle": "Saini Tafsiri ni mradi wa programu huria, unaoruhusu jumuiya kuchangia na kuboresha vipengele vyake.",
+          "description": "Kwa kushiriki msimbo wetu wa chanzo, tunalenga kukuza ushirikiano na uwazi. "
+        },
+        "offline": {
+          "title": "Utendaji Nje ya Mtandao",
+          "subtitle": "Saini kazi ya Tafsiri kila mahali, hata nje ya mtandao kwenye ndege.",
+          "description": "Iwe unasafiri, ukiwa katika eneo la mbali, au bila intaneti, programu yetu inahakikisha kuwa unaweza kutafsiri lugha inayozungumzwa au iliyoandikwa kila wakati katika lugha ya ishara, huku ikiweka zana muhimu za mawasiliano kiganjani mwako."
+        }
+      },
+      "title": "Kuhusu Sisi"
+    },
+    "contribute": {
+      "title": "Changia"
+    },
+    "nav": {
+      "pages": "Nenda kwenye kurasa zingine",
+      "legal": "Nenda kwenye kurasa za kisheria"
+    }
+  },
+  "text-to-speech": {
+    "play": "Sikiliza",
+    "cancel": "Acha",
+    "unavailable": "Sauti ya kutoa sauti haipatikani kwa lugha iliyochaguliwa"
+  },
+  "speech-to-text": {
+    "start": "Tafsiri kwa kutamka",
+    "stop": "Acha kutafsiri kwa sauti",
+    "not-allowed": "Unahitaji ruhusa ya kutumia maikrofoni",
+    "language-not-supported": "Lugha iliyochaguliwa haitumiki",
+    "browser-not-supported": "Uingizaji data kwa kutamka hautumiki kwenye kivinjari hiki",
+    "service-not-allowed": "Unahitaji ruhusa ya kutumia utambuzi wa usemi"
+  },
+  "legal": {
+    "terms": {
+      "title": "Sheria na Masharti"
+    },
+    "privacy": {
+      "title": "Faragha"
+    },
+    "licenses": {
+      "title": "Programu na Leseni"
+    },
+    "title": "Kisheria"
+  },
+  "playground": {
+    "title": "Uwanja wa Kuchakata Lugha ya Ishara"
+  },
+  "benchmark": {
+    "title": "Benchmark",
+    "stats": {
+      "cld": {
+        "title": "Utambulisho wa Lugha Inayozungumzwa",
+        "import": "Ingiza Moduli",
+        "load": "Mfano wa Kupakia",
+        "find": "Tambua Maandishi",
+        "create": "Unda"
+      },
+      "pix2pix": {
+        "title": "Mtazamaji wa Pozi la Binadamu",
+        "init": "Kiini cha Mfanyikazi",
+        "load": "Mfano wa Kupakia",
+        "first-frame": "Maelekezo ya Fremu ya Kwanza",
+        "frame": "Inference ya Fremu"
+      },
+      "pose": {
+        "title": "Ukadiriaji wa Pozi la Mwili Kamili",
+        "load": "Mzigo wa Mfano",
+        "first-frame": "Maelekezo ya Fremu ya Kwanza",
+        "frame": "Inference ya Fremu"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Kamera inaanza",
+      "turnedOff": "Kamera imezimwa",
+      "notConnected": "Kamera haijaunganishwa",
+      "permissionDenied": "Ruhusa ya kamera imekataliwa"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Zima kamera",
+        "off": "Washa kamera"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Inapakia Makadirio ya Pozi..."
+  },
+  "language-selector": {
+    "label": "Badilisha lugha au eneo"
+  },
+  "settings": {
+    "detectSign": "Tambua Ishara",
+    "drawVideo": "Chora Video",
+    "drawPose": "Chora Pozi",
+    "drawSignWriting": "Chora Uandishi wa Ishara",
+    "animatePose": "Huisha Mkao",
+    "poseViewer": {
+      "pose": "Mifupa",
+      "avatar": "Avatar",
+      "person": "Binadamu"
+    },
+    "title": "Mipangilio",
+    "close": "Funga mipangilio",
+    "support": {
+      "title": "Msaada",
+      "feedback": {
+        "title": "Maoni",
+        "send": "Tuma maoni"
+      },
+      "about": {
+        "title": "Kuhusu"
+      }
+    },
+    "voice": {
+      "title": "Sauti",
+      "input": {
+        "title": "Ingizo"
+      },
+      "output": {
+        "title": "Pato"
+      }
+    },
+    "other": {
+      "title": "Nyingine",
+      "offline": {
+        "title": "Nje ya mtandao",
+        "files": {
+          "pix2pixGenerator": "Picha-halisi jenereta ya binadamu",
+          "pix2pixUpscaler": "Kiboreshaji cha hali ya juu cha binadamu",
+          "avatarGlb": "Avatar ya 3D",
+          "avatarUsdz": "Avatar ya 3D ya AR kwenye iOS",
+          "translation": "Tafsiri",
+          "translation.spokenToSigned": "Imesemwa-kwa-Saini",
+          "translation.signedToSpoken": "Imesainiwa-kwa-Kutamkwa"
+        },
+        "actions": {
+          "toggle": "Geuza {{label}}",
+          "download": "Pakua Muundo wa Nje ya Mtandao",
+          "delete": "Futa Akiba ya Muundo wa Nje ya Mtandao",
+          "reDownload": "Pakua Upya Muundo wa Nje ya Mtandao"
+        }
+      },
+      "appearance": {
+        "title": "Mwonekano",
+        "action": "Rekebisha mwonekano",
+        "random": "Pata picha ya nasibu",
+        "upload": "Pakia picha yako mwenyewe"
+      }
+    }
+  },
+  "to": "{{a}} → {{b}}",
+  "languages.spoken": "Wote",
+  "countries.signed": "Wote"
+}

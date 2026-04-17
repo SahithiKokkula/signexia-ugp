@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "Strona nie znaleziona",
+    "doesNotExist": "Przepraszamy, strona, której szukasz nie istnieje.",
+    "errorLogged": "Zarejestrowaliśmy błąd i przyjrzymy się mu.",
+    "goHome": "Idź do domu"
+  },
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Shift"
+  },
+  "translate": {
+    "title": "Tłumacz znaków",
+    "language-selector": {
+      "detected": "{{lang}} - Wykryto",
+      "detect": "Wykryj język",
+      "more": "Więcej języków"
+    },
+    "input": {
+      "text": "Tekst",
+      "webcam": "Kamerka internetowa",
+      "upload": "Wgrywać"
+    },
+    "swapLanguages": "Zamiana języków",
+    "upload": {
+      "types": "Prześlij plik .mp4, .ogv lub .webm.",
+      "browse": "Przeglądaj komputer",
+      "title": "Wybierz film"
+    },
+    "spoken-to-signed": {
+      "text": "Tekst w języku mówionym",
+      "actions": {
+        "download": "Pobierz tłumaczenie",
+        "copy": "Kopiuj tłumaczenie",
+        "share": "Udostępnij tłumaczenie"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Ładowanie ludzkiego modelu wideo",
+          "generating": "Generowanie wideo"
+        }
+      },
+      "placeholder": "Wprowadź tekst"
+    },
+    "description": "Bezproblemowe tłumaczenie na język migowy z najnowocześniejszymi modelami czasu rzeczywistego. ",
+    "suggestions": {
+      "translate-from": "Przetłumacz z",
+      "did-you-mean": "Miałeś na myśli"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Kopiuj tłumaczenie"
+      }
+    },
+    "logo": "Tłumacz"
+  },
+  "landing": {
+    "try": "Przetłumacz teraz",
+    "about": {
+      "hero": {
+        "title": "Tłumacz w czasie rzeczywistym między ponad 40 językami migowymi i mówionymi.",
+        "img": "Przykład tłumaczenia na żywo między amerykańskim językiem migowym a angielskim"
+      },
+      "direction": {
+        "spoken-to-signed": "Tłumacz z języka mówionego na język migowy",
+        "signed-to-spoken": "Lub z języka migowego na język mówiony"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Tłumaczenie w czasie rzeczywistym",
+          "subtitle": "Tłumacz w czasie rzeczywistym między ponad 40 językami migowymi i mówionymi",
+          "description": "Nasza aplikacja umożliwia naturalną i łatwą komunikację z kimkolwiek, gdziekolwiek i kiedykolwiek, w Twoim własnym języku migowym."
+        },
+        "multilingual": {
+          "title": "Wsparcie wielojęzyczne",
+          "subtitle": "Tłumacz między różnymi językami migowymi i językami mówionymi",
+          "description": "Nasza aplikacja obsługuje wiele języków migowych i języków mówionych, dzięki czemu możesz komunikować się z ludźmi z różnych krajów i kultur."
+        },
+        "appearance": {
+          "title": "Możliwość dostosowania wyglądu",
+          "subtitle": "Nasze fotorealistyczne awatary w języku migowym oferują szeroką gamę opcji dostosowywania do Twoich konkretnych potrzeb.",
+          "description": "Niezależnie od tego, czy chcesz stworzyć awatar podobny do Ciebie, czy też stworzyć unikalną postać, nasze opcje dostosowywania pozwolą Ci wyrazić siebie w sposób, który będzie dla Ciebie autentyczny i prawdziwy."
+        },
+        "open-source": {
+          "title": "Projekt open source",
+          "subtitle": "Signexia to projekt typu open source, umożliwiający społeczności wnoszenie wkładu i ulepszanie jego funkcji.",
+          "description": "Udostępniając nasz kod źródłowy, dążymy do wspierania współpracy i przejrzystości. "
+        },
+        "offline": {
+          "title": "Funkcjonalność offline",
+          "subtitle": "Signexia działa wszędzie, nawet offline, w samolocie.",
+          "description": "Niezależnie od tego, czy podróżujesz, jesteś na odludziu, czy nie masz internetu, nasza aplikacja gwarantuje, że zawsze będziesz w stanie przetłumaczyć język mówiony lub pisany na język migowy, dzięki czemu niezbędne narzędzia komunikacji będą w zasięgu ręki."
+        }
+      },
+      "title": "O nas"
+    },
+    "contribute": {
+      "title": "Twój wkład"
+    },
+    "nav": {
+      "pages": "Przejdź do innych stron",
+      "legal": "Przejdź do stron prawnych"
+    }
+  },
+  "text-to-speech": {
+    "play": "Słuchaj",
+    "cancel": "Zatrzymać",
+    "unavailable": "Wyjście głosowe nie jest dostępne dla wybranego języka"
+  },
+  "speech-to-text": {
+    "start": "Tłumacz mowę",
+    "stop": "Zatrzymaj tłumaczenie głosowe",
+    "not-allowed": "Potrzebujesz pozwolenia na używanie mikrofonu",
+    "language-not-supported": "Wybrany język nie jest obsługiwany",
+    "browser-not-supported": "Wprowadzanie głosowe nie jest obsługiwane w tej przeglądarce",
+    "service-not-allowed": "Potrzebujesz pozwolenia na korzystanie z rozpoznawania mowy"
+  },
+  "legal": {
+    "terms": {
+      "title": "Warunki"
+    },
+    "privacy": {
+      "title": "Prywatność"
+    },
+    "licenses": {
+      "title": "Oprogramowanie i licencje"
+    },
+    "title": "Prawny"
+  },
+  "playground": {
+    "title": "Plac zabaw przetwarzania języka migowego"
+  },
+  "benchmark": {
+    "title": "Reper",
+    "stats": {
+      "cld": {
+        "title": "Identyfikacja w języku mówionym",
+        "import": "Moduł importu",
+        "load": "Załaduj model",
+        "find": "Zidentyfikuj tekst",
+        "create": "Tworzyć"
+      },
+      "pix2pix": {
+        "title": "Przeglądarka ludzkiej pozy",
+        "init": "Pracownik początkowy",
+        "load": "Załaduj model",
+        "first-frame": "Wnioskowanie o pierwszej klatce",
+        "frame": "Wnioskowanie ramki"
+      },
+      "pose": {
+        "title": "Szacowanie pozycji całego ciała",
+        "load": "Obciążenie modelu",
+        "first-frame": "Wnioskowanie o pierwszej klatce",
+        "frame": "Wnioskowanie ramki"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Uruchamianie aparatu",
+      "turnedOff": "Aparat wyłączony",
+      "notConnected": "Kamera nie jest podłączona",
+      "permissionDenied": "Odmowa pozwolenia na aparat"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Wyłącz aparat",
+        "off": "Włącz aparat"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Wczytywanie oszacowania ułożenia..."
+  },
+  "language-selector": {
+    "label": "Zmień język lub region"
+  },
+  "settings": {
+    "detectSign": "Wykryj znak",
+    "drawVideo": "Rysuj wideo",
+    "drawPose": "Rysuj pozę",
+    "drawSignWriting": "Narysuj pisanie znakami",
+    "animatePose": "Animowana pozycja",
+    "poseViewer": {
+      "pose": "Szkielet",
+      "avatar": "Awatara",
+      "person": "Człowiek"
+    },
+    "title": "Ustawienia",
+    "close": "Zamknij ustawienia",
+    "support": {
+      "title": "Wspierać się",
+      "feedback": {
+        "title": "Informacja zwrotna",
+        "send": "Prześlij opinię"
+      },
+      "about": {
+        "title": "O"
+      }
+    },
+    "voice": {
+      "title": "Głos",
+      "input": {
+        "title": "Wejście"
+      },
+      "output": {
+        "title": "Wyjście"
+      }
+    },
+    "other": {
+      "title": "Inny",
+      "offline": {
+        "title": "Offline",
+        "files": {
+          "pix2pixGenerator": "Fotorealistyczny generator człowieka",
+          "pix2pixUpscaler": "Fotorealistyczny ludzki upscaler",
+          "avatarGlb": "Awatar 3D",
+          "avatarUsdz": "Avatar 3D dla AR na iOS",
+          "translation": "Tłumaczenie",
+          "translation.spokenToSigned": "Mówiony do podpisu",
+          "translation.signedToSpoken": "Podpisanie na głos"
+        },
+        "actions": {
+          "toggle": "Przełącz {{label}}",
+          "download": "Pobierz model offline",
+          "delete": "Wyczyść pamięć podręczną modelu offline",
+          "reDownload": "Pobierz ponownie model offline"
+        }
+      },
+      "appearance": {
+        "title": "Wygląd zewnętrzny",
+        "action": "Zmodyfikuj wygląd",
+        "random": "Zdobądź losowe zdjęcie",
+        "upload": "Prześlij własne zdjęcie"
+      }
+    }
+  },
+  "to": "{{a}} → {{b}}",
+  "languages.spoken": "Wszystko",
+  "countries.signed": "Wszystko"
+}

@@ -1,0 +1,173 @@
+name: Client
+
+on:
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - 'functions/**'
+      - '.github/workflows/server.yml'
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    concurrency:
+      group: ${{ github.ref }}-client
+      cancel-in-progress: true
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun Runtime
+        uses: antongolub/action-setup-bun@v1
+
+      # Using npm it is faster to cache the node modules. Using bun it seems like it is not.
+      #- name: Cache node_modules
+      #  uses: actions/cache@v3
+      #  with:
+      #    path: |
+      #      node_modules
+      #    key: client-${{ runner.os }} # Key is generic as for frequent package updates
+
+      - name: Install Dependencies
+        run: bun install
+
+      - name: Create terms and conditions
+        run: bun run generate:terms
+
+      - name: Create privacy page
+        run: bun run generate:privacy
+
+      - name: Lint code
+        run: bun run lint
+
+      - name: Test code
+        run: bun run test:ci
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate a cache busting version
+        run: node tools/generate-build-version.js
+
+      - name: Build project
+        run: bun run build
+
+      - name: Generate Sitemap
+        run: bun run generate:sitemap
+
+      - name: Generate Licenses File
+        run: bun run generate:licenses
+
+      - name: Install Docs Dependencies
+        working-directory: docs
+        run: bun install
+
+      - name: Generate Docs
+        run: bun run generate:docs
+
+      - name: Move .well-known to root
+        working-directory: dist/sign-translate/browser/
+        run: mv assets/.well-known .well-known
+
+      - name: Zip dist
+        run: zip -r dist/sign-translate/browser.zip dist/sign-translate/browser/
+
+      - name: Archive dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-dist
+          path: dist/sign-translate/browser.zip
+          retention-days: 1
+
+  lighthouse:
+    name: Lighthouse Test
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download built dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-dist
+          path: .
+
+      - name: Unzip dist
+        run: unzip browser.zip
+
+      - name: Remove original html file from before prerendering
+        run: rm -f dist/sign-translate/browser/index.original.html || true
+
+      - name: Run Lighthouse against a static dist dir
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: .github/workflows/lighthouse/lighthouserc.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+
+  website-deploy:
+    name: Deploy to Firebase
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      checks: write
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download built dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-dist
+          path: .
+
+      - name: Unzip dist
+        run: unzip browser.zip
+
+      # Experimentally, HTTP/2 Push degrades performance with prerendered pages
+      # - name: Create HTTP/2 Server Push Headers
+      #  run: node tools/firebase-http-push.js
+
+      - name: Deploy Live Channel 🚀
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SIGN_MT }}
+          channelId: live
+          projectId: sign-mt
+
+  website-deploy-dev:
+    name: Deploy to Firebase
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      checks: write
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download built dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-dist
+          path: .
+
+      - name: Unzip dist
+        run: unzip browser.zip
+
+      - name: Deploy Development Channel 🚀
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SIGN_MT }}
+          projectId: sign-mt

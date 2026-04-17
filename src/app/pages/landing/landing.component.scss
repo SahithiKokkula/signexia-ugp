@@ -1,0 +1,87 @@
+@use '../../../theme/breakpoints' as breakpoints;
+
+.modern-header {
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.1);
+  
+  ion-toolbar {
+    --background: linear-gradient(135deg, rgba(14, 165, 233, 0.95) 0%, rgba(10, 162, 216, 0.95) 100%);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    
+    @media (prefers-color-scheme: dark) {
+      --background: linear-gradient(135deg, rgba(14, 165, 233, 0.9) 0%, rgba(10, 162, 216, 0.9) 100%);
+    }
+  }
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+}
+
+.modern-menu {
+  ion-toolbar {
+    --background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+  }
+  
+  .menu-item {
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --inner-padding-top: 12px;
+    --inner-padding-bottom: 12px;
+    border-radius: 8px;
+    margin: 4px 12px;
+    
+    &:hover {
+      --background: rgba(14, 165, 233, 0.1);
+    }
+  }
+}
+
+.modern-content {
+  --background: transparent;
+}
+
+:host ::ng-deep {
+  router-outlet + * {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .cards-container {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    
+    @media #{breakpoints.$breakpoint-lt-md} {
+      flex-direction: column;
+      gap: 16px;
+      padding: 16px;
+    }
+  }
+  
+  // Modern card styling for any nested cards
+  [class*="card"] {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 249, 255, 0.95) 100%);
+    border-radius: 12px;
+    border: 1px solid rgba(14, 165, 233, 0.1);
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.08);
+    transition: all 0.3s ease;
+    
+    @media (prefers-color-scheme: dark) {
+      background: linear-gradient(135deg, rgba(28, 27, 31, 0.95) 0%, rgba(45, 44, 49, 0.95) 100%);
+      border-color: rgba(56, 189, 248, 0.2);
+    }
+    
+    &:hover {
+      box-shadow: 0 8px 24px rgba(14, 165, 233, 0.12);
+      transform: translateY(-2px);
+      border-color: rgba(14, 165, 233, 0.2);
+    }
+  }
+}

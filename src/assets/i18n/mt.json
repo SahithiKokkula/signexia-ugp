@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "Paġna mhux misjuba",
+    "doesNotExist": "Jiddispjacini, il-paġna li kont qed tfittex ma teżistix.",
+    "errorLogged": "Aħna illoggjaw l-iżball u se nħarsu fih.",
+    "goHome": "Mur id-Dar"
+  },
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Shift"
+  },
+  "translate": {
+    "title": "Traduttur tas-Sinjali",
+    "language-selector": {
+      "detected": "{{lang}} - Individwat",
+      "detect": "Induna bil-lingwa",
+      "more": "Aktar Lingwi"
+    },
+    "input": {
+      "text": "Test",
+      "webcam": "Kamera tal-Web",
+      "upload": "Upload"
+    },
+    "swapLanguages": "Aqleb il-lingwi",
+    "upload": {
+      "types": "Tella' .mp4, .ogv, jew .webm.",
+      "browse": "Ibbrawżja l-kompjuter tiegħek",
+      "title": "Agħżel vidjo"
+    },
+    "spoken-to-signed": {
+      "text": "Test tal-Lingwa Mitkellma",
+      "actions": {
+        "download": "Niżżel Traduzzjoni",
+        "copy": "Kopja tat-Traduzzjoni",
+        "share": "Share Traduzzjoni"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Tagħbija tal-mudell tal-vidjo uman",
+          "generating": "Ġenerazzjoni tal-vidjo"
+        }
+      },
+      "placeholder": "Daħħal it-Test"
+    },
+    "description": "Traduzzjoni tal-Lingwa tas-Sinjali mingħajr Sforz b'Mudelli ta' l-Avanti f'Ħin Reali. ",
+    "suggestions": {
+      "translate-from": "Ittraduċi minn",
+      "did-you-mean": "Ridt tfisser"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Kopja tat-Traduzzjoni"
+      }
+    },
+    "logo": "Traduttur"
+  },
+  "landing": {
+    "try": "Ittraduċi issa",
+    "about": {
+      "hero": {
+        "title": "Ittraduċi bejn aktar minn 40 lingwa ffirmata u mitkellma f'ħin reali.",
+        "img": "Eżempju ta' traduzzjoni diretta bejn il-Lingwa tas-Sinjali Amerikana u l-Ingliż"
+      },
+      "direction": {
+        "spoken-to-signed": "Ittraduċi minn lingwi mitkellma għal lingwi tas-sinjali",
+        "signed-to-spoken": "Jew minn lingwi ffirmati għal lingwi mitkellma"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Traduzzjoni f'ħin reali",
+          "subtitle": "Ittraduċi bejn aktar minn 40 lingwa ffirmata u mitkellma f'ħin reali",
+          "description": "L-app tagħna tippermettilek tikkomunika b'mod naturali u faċilment ma' kulħadd, kullimkien, f'kull ħin, bil-lingwa tas-sinjali tiegħek stess."
+        },
+        "multilingual": {
+          "title": "Appoġġ Multilingwi",
+          "subtitle": "Ittraduċi bejn lingwi tas-sinjali differenti u lingwi mitkellma",
+          "description": "L-app tagħna tappoġġja diversi lingwi tas-sinjali u lingwi mitkellma, sabiex tkun tista’ tikkomunika ma’ nies minn pajjiżi u kulturi differenti."
+        },
+        "appearance": {
+          "title": "Dehra customizable",
+          "subtitle": "L-avatars tal-lingwa tas-sinjali realistiċi tar-ritratti tagħna joffru firxa wiesgħa ta’ għażliet ta’ customization li jissodisfaw il-bżonnijiet speċifiċi tiegħek.",
+          "description": "Kemm jekk trid toħloq avatar li tidher bħalek jew toħloq karattru uniku, l-għażliet ta 'adattament tagħna jippermettulek tesprimi ruħek b'mod li tħossok awtentiku u leali għalik."
+        },
+        "open-source": {
+          "title": "Proġett ta' Sors Miftuħ",
+          "subtitle": "Signexia huwa proġett open-source, li jippermetti lill-komunità tikkontribwixxi u ttejjeb il-karatteristiċi tagħha.",
+          "description": "Billi naqsmu l-kodiċi tas-sors tagħna, aħna nimmiraw li nrawmu l-kollaborazzjoni u t-trasparenza. "
+        },
+        "offline": {
+          "title": "Funzjonalità Offline",
+          "subtitle": "Iffirma Translate xogħol kullimkien, anke offline fuq ajruplan.",
+          "description": "Kemm jekk qed tivvjaġġa, f'żona remota, jew mingħajr l-internet, l-app tagħna tiżgura li tista' dejjem tittraduċi l-lingwa mitkellma jew miktuba fil-lingwa tas-sinjali, u żżomm għodod ta' komunikazzjoni essenzjali fuq ponot subgħajk."
+        }
+      },
+      "title": "Dwarna"
+    },
+    "contribute": {
+      "title": "Ikkontribwixxi"
+    },
+    "nav": {
+      "pages": "Innaviga lejn paġni oħra",
+      "legal": "Innaviga lejn paġni legali"
+    }
+  },
+  "text-to-speech": {
+    "play": "Isma'",
+    "cancel": "Waqfa",
+    "unavailable": "L-output tal-vuċi mhuwiex disponibbli għall-lingwa magħżula"
+  },
+  "speech-to-text": {
+    "start": "Ittraduċi bil-vuċi",
+    "stop": "Waqqaf it-traduzzjoni bil-vuċi",
+    "not-allowed": "Jeħtieġ permess biex tuża mikrofonu",
+    "language-not-supported": "Il-lingwa magħżula mhix appoġġjata",
+    "browser-not-supported": "Id-dħul tal-vuċi mhuwiex appoġġjat fuq dan il-browser",
+    "service-not-allowed": "Jeħtieġ permess biex tuża r-rikonoxximent tad-diskors"
+  },
+  "legal": {
+    "terms": {
+      "title": "Termini"
+    },
+    "privacy": {
+      "title": "Privatezza"
+    },
+    "licenses": {
+      "title": "Softwer u Liċenzji"
+    },
+    "title": "Legali"
+  },
+  "playground": {
+    "title": "Playground tal-Ipproċessar tal-Lingwa tas-Sinjali"
+  },
+  "benchmark": {
+    "title": "Benchmark",
+    "stats": {
+      "cld": {
+        "title": "Identifikazzjoni tal-Lingwa Mitkellma",
+        "import": "Modulu ta 'importazzjoni",
+        "load": "Mudell tat-Tagħbija",
+        "find": "Identifika t-Test",
+        "create": "Oħloq"
+      },
+      "pix2pix": {
+        "title": "Viewer tal-Poża tal-Bniedem",
+        "init": "Ħaddiem Init",
+        "load": "Mudell tat-Tagħbija",
+        "first-frame": "L-Ewwel Frame Inferenza",
+        "frame": "Inferenza tal-qafas"
+      },
+      "pose": {
+        "title": "Stima tal-Pose tal-Korp Sħiħ",
+        "load": "Tagħbija tal-Mudell",
+        "first-frame": "L-Ewwel Frame Inferenza",
+        "frame": "Inferenza tal-qafas"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Kamera tal-bidu",
+      "turnedOff": "Kamera mitfija",
+      "notConnected": "Kamera mhux konnessa",
+      "permissionDenied": "Permess tal-kamera miċħud"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Itfi l-kamera",
+        "off": "Ixgħel il-kamera"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Tagħbija Stima tal-Pożizzjoni..."
+  },
+  "language-selector": {
+    "label": "Ibdel il-lingwa jew ir-reġjun"
+  },
+  "settings": {
+    "detectSign": "Issib Sinjal",
+    "drawVideo": "Iġbed Video",
+    "drawPose": "Iġbed Poża",
+    "drawSignWriting": "Iġbed il-Kitba tas-Sinjali",
+    "animatePose": "Janima Poża",
+    "poseViewer": {
+      "pose": "Skeletru",
+      "avatar": "Avatar",
+      "person": "Bniedem"
+    },
+    "title": "Settings",
+    "close": "Agħlaq is-settings",
+    "support": {
+      "title": "Appoġġ",
+      "feedback": {
+        "title": "Feedback",
+        "send": "Ibgħat feedback"
+      },
+      "about": {
+        "title": "Dwar"
+      }
+    },
+    "voice": {
+      "title": "Leħen",
+      "input": {
+        "title": "Input"
+      },
+      "output": {
+        "title": "Output"
+      }
+    },
+    "other": {
+      "title": "Oħrajn",
+      "offline": {
+        "title": "Offline",
+        "files": {
+          "pix2pixGenerator": "Ġeneratur uman foto-realistiku",
+          "pix2pixUpscaler": "Upscaler uman foto-realistiku",
+          "avatarGlb": "3D Avatar",
+          "avatarUsdz": "3D Avatar għal AR fuq iOS",
+          "translation": "Traduzzjoni",
+          "translation.spokenToSigned": "Mitkellma biex Iffirmat",
+          "translation.signedToSpoken": "Iffirmat għal Mitkellem"
+        },
+        "actions": {
+          "toggle": "Aqleb {{label}}",
+          "download": "Niżżel il-Mudell Offline",
+          "delete": "Neħħi l-Cache tal-Mudell Offline",
+          "reDownload": "Niżżel mill-ġdid il-Mudell Offline"
+        }
+      },
+      "appearance": {
+        "title": "Dehra",
+        "action": "Ibdel id-dehra",
+        "random": "Ikseb ritratt bl-addoċċ",
+        "upload": "Ittella r-ritratt tiegħek"
+      }
+    }
+  },
+  "to": "{{a}} → {{b}}",
+  "languages.spoken": "Kollha",
+  "countries.signed": "Kollha"
+}

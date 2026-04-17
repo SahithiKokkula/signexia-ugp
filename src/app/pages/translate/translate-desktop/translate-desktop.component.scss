@@ -1,0 +1,240 @@
+@use '../../../../theme/breakpoints' as breakpoints;
+@use '../../../../theme/md3-tokens' as md3;
+@use '../../../../theme/animations' as anim;
+
+// Modern Header
+.modern-header {
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.1);
+  ion-toolbar {
+    --background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 249, 255, 0.95) 100%);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(14, 165, 233, 0.1);
+    
+    @media (prefers-color-scheme: dark) {
+      --background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(17, 24, 39, 0.95) 100%);
+    }
+  }
+}
+
+.modern-content {
+  --background: transparent;
+}
+
+.modern-container {
+  @include anim.animate-fade-in(md3.$md3-duration-medium2);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  
+  @media #{breakpoints.$breakpoint-gt-md} {
+    padding: 48px;
+    padding-top: 32px;
+  }
+  
+  @media #{breakpoints.$breakpoint-lt-md} {
+    padding: 24px 16px;
+    gap: 24px;
+  }
+}
+
+// Hero Section
+.hero-section {
+  text-align: center;
+  margin-bottom: 16px;
+  
+  .input-mode-header {
+    margin-bottom: 24px;
+    
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0 0 8px 0;
+      background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      
+      @media #{breakpoints.$breakpoint-lt-md} {
+        font-size: 24px;
+      }
+    }
+    
+    p {
+      font-size: 16px;
+      color: var(--ion-color-medium);
+      margin: 0;
+      font-weight: 500;
+    }
+  }
+}
+
+// Mode Selector
+.mode-selector {
+  height: 72px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-wrap: wrap;
+  
+  @media #{breakpoints.$breakpoint-lt-lg} {
+    padding: 0 12px;
+  }
+  
+  @media #{breakpoints.$breakpoint-lt-sm} {
+    display: none;
+  }
+  
+  app-translate-input-button {
+    animation: slideInUp 0.6s ease-out;
+  }
+}
+
+// Modern Card Design
+.card-modern {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(14, 165, 233, 0.12);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  border: 1px solid rgba(14, 165, 233, 0.1);
+  
+  @media (prefers-color-scheme: dark) {
+    background: linear-gradient(135deg, #1c1b1f 0%, #2d2c31 100%);
+    border-color: rgba(56, 189, 248, 0.2);
+    box-shadow: 0 8px 32px rgba(14, 165, 233, 0.08);
+  }
+  
+  @media #{breakpoints.$breakpoint-gt-xs} {
+    &:hover {
+      box-shadow: 0 12px 48px rgba(14, 165, 233, 0.16);
+      transform: translateY(-2px) scale(1.01);
+      border-color: rgba(14, 165, 233, 0.2);
+    }
+  }
+  
+  // Gradient accent bar
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #0ea5e9 0%, #f97316 50%, #a855f7 100%);
+    background-size: 200% 100%;
+    animation: gradientFlow 4s ease-in-out infinite;
+    z-index: 10;
+  }
+  
+  .card-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--app-divider-color);
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.02) 0%, rgba(249, 115, 22, 0.01) 100%);
+    
+    @media #{breakpoints.$breakpoint-lt-md} {
+      padding: 16px 16px;
+    }
+  }
+  
+  .card-content {
+    padding: 24px;
+    
+    @media #{breakpoints.$breakpoint-lt-md} {
+      padding: 16px;
+    }
+  }
+}
+
+.translation-area {
+  position: relative;
+  z-index: 1;
+}
+
+// Animations
+@keyframes gradientFlow {
+  0%, 100% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#input-mode-group {
+  margin: 0;
+  padding: 0;
+}
+
+ntkme-github-button {
+  margin: 0 8px;
+}
+
+#version {
+  cursor: help;
+  font-family: monospace;
+}
+
+// Privacy disclaimer with modern styling
+.disclaimer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  text-align: end;
+  margin-left: auto;
+  max-width: max-content;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(249, 115, 22, 0.05) 100%);
+  border-radius: 8px;
+  border: 1px solid rgba(14, 165, 233, 0.15);
+  transition: all 0.3s ease;
+  
+  @media (prefers-color-scheme: dark) {
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.08) 0%, rgba(251, 146, 60, 0.05) 100%);
+  }
+  
+  @media #{breakpoints.$breakpoint-gt-xs} {
+    &:hover {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.12) 0%, rgba(249, 115, 22, 0.08) 100%);
+      border-color: rgba(14, 165, 233, 0.25);
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.1);
+    }
+  }
+  
+  &-icon {
+    font-size: 18px;
+    color: var(--ion-color-primary);
+    flex-shrink: 0;
+  }
+  
+  &-text {
+    line-height: 1.4;
+  }
+  
+  &-link {
+    color: var(--ion-color-primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: var(--ion-color-secondary);
+      text-decoration: underline;
+    }
+  }
+}

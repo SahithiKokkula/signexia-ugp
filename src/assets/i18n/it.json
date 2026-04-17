@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "pagina non trovata",
+    "doesNotExist": "Siamo spiacenti, la pagina che stavi cercando non esiste.",
+    "errorLogged": "Abbiamo registrato l'errore e lo esamineremo.",
+    "goHome": "Vai a Casa"
+  },
+  "keyboard": {
+    "ctrl": "CTRL",
+    "shift": "MAIUSC"
+  },
+  "translate": {
+    "title": "Traduttore di Segni",
+    "language-selector": {
+      "detected": "{{lang}} - Rilevato",
+      "detect": "Rileva lingua",
+      "more": "Più lingue"
+    },
+    "input": {
+      "text": "Testo",
+      "webcam": "Webcam",
+      "upload": "Caricamento"
+    },
+    "swapLanguages": "Cambia lingue",
+    "upload": {
+      "types": "Carica un file .mp4, .ogv o .webm.",
+      "browse": "Cerca sul computer",
+      "title": "Scegli un video"
+    },
+    "spoken-to-signed": {
+      "text": "Testo in lingua parlata",
+      "actions": {
+        "download": "Scarica traduzione",
+        "copy": "Copia traduzione",
+        "share": "Condividi traduzione"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Caricamento del modello video umano",
+          "generating": "Generazione video"
+        }
+      },
+      "placeholder": "Inserire il testo"
+    },
+    "description": "Traduzione semplificata della lingua dei segni con modelli in tempo reale all'avanguardia. ",
+    "suggestions": {
+      "translate-from": "Tradotto da",
+      "did-you-mean": "Intendevi"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Copia traduzione"
+      }
+    },
+    "logo": "Traduttore"
+  },
+  "landing": {
+    "try": "Traduci ora",
+    "about": {
+      "hero": {
+        "title": "Traduci tra oltre 40 lingue parlate e parlate in tempo reale.",
+        "img": "Esempio di traduzione dal vivo tra la lingua dei segni americana e l'inglese"
+      },
+      "direction": {
+        "spoken-to-signed": "Traduci dalle lingue parlate a quelle dei segni",
+        "signed-to-spoken": "O dalle lingue dei segni a quelle parlate"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Traduzione in tempo reale",
+          "subtitle": "Traduci tra oltre 40 lingue parlate e firmate in tempo reale",
+          "description": "La nostra app ti consente di comunicare in modo semplice e naturale con chiunque, ovunque e in qualsiasi momento, nella tua lingua dei segni."
+        },
+        "multilingual": {
+          "title": "Supporto multilingue",
+          "subtitle": "Traduci tra diverse lingue dei segni e lingue parlate",
+          "description": "La nostra app supporta più lingue dei segni e lingue parlate, così puoi comunicare con persone provenienti da paesi e culture diverse."
+        },
+        "appearance": {
+          "title": "Aspetto personalizzabile",
+          "subtitle": "I nostri avatar fotorealistici nel linguaggio dei segni offrono un'ampia gamma di opzioni di personalizzazione per soddisfare le tue esigenze specifiche.",
+          "description": "Sia che tu voglia creare un avatar che ti assomigli o creare un personaggio unico, le nostre opzioni di personalizzazione ti consentono di esprimerti in un modo che ti sembri autentico e fedele."
+        },
+        "open-source": {
+          "title": "Progetto Open Source",
+          "subtitle": "Signexia è un progetto open source che consente alla comunità di contribuire e migliorare le sue funzionalità.",
+          "description": "Condividendo il nostro codice sorgente, miriamo a favorire la collaborazione e la trasparenza. "
+        },
+        "offline": {
+          "title": "Funzionalità offline",
+          "subtitle": "Signexia funziona ovunque, anche offline in aereo.",
+          "description": "Che tu sia in viaggio, in una zona remota o senza Internet, la nostra app ti consente di tradurre sempre il linguaggio parlato o scritto nella lingua dei segni, mantenendo gli strumenti di comunicazione essenziali a portata di mano."
+        }
+      },
+      "title": "Chi siamo"
+    },
+    "contribute": {
+      "title": "Contribuisci"
+    },
+    "nav": {
+      "pages": "Passa ad altre pagine",
+      "legal": "Vai alle pagine legali"
+    }
+  },
+  "text-to-speech": {
+    "play": "Ascolta",
+    "cancel": "Fermare",
+    "unavailable": "L'uscita vocale non è disponibile per la lingua selezionata"
+  },
+  "speech-to-text": {
+    "start": "Traduzione vocale",
+    "stop": "Interrompi la traduzione vocale",
+    "not-allowed": "È necessaria l'autorizzazione per utilizzare il microfono",
+    "language-not-supported": "La lingua selezionata non è supportata",
+    "browser-not-supported": "L'input vocale non è supportato su questo browser",
+    "service-not-allowed": "È necessaria l'autorizzazione per utilizzare il riconoscimento vocale"
+  },
+  "legal": {
+    "terms": {
+      "title": "Termini"
+    },
+    "privacy": {
+      "title": "Privacy"
+    },
+    "licenses": {
+      "title": "Software e licenze"
+    },
+    "title": "Legale"
+  },
+  "playground": {
+    "title": "Parco giochi per l'elaborazione della lingua dei segni"
+  },
+  "benchmark": {
+    "title": "Segno di riferimento",
+    "stats": {
+      "cld": {
+        "title": "Identificazione della lingua parlata",
+        "import": "Modulo di importazione",
+        "load": "Carica modello",
+        "find": "Identifica il testo",
+        "create": "Creare"
+      },
+      "pix2pix": {
+        "title": "Visualizzatore di pose umane",
+        "init": "Iniz. lavoratore",
+        "load": "Carica modello",
+        "first-frame": "Inferenza del primo fotogramma",
+        "frame": "Inferenza telaio"
+      },
+      "pose": {
+        "title": "Stima della posa del corpo intero",
+        "load": "Carico del modello",
+        "first-frame": "Inferenza del primo fotogramma",
+        "frame": "Inferenza telaio"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Fotocamera in partenza",
+      "turnedOff": "Fotocamera spenta",
+      "notConnected": "Fotocamera non collegata",
+      "permissionDenied": "Autorizzazione della fotocamera negata"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Spegni la fotocamera",
+        "off": "Accendi la fotocamera"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Caricamento della stima della posa..."
+  },
+  "language-selector": {
+    "label": "Cambia lingua o regione"
+  },
+  "settings": {
+    "detectSign": "Rileva segno",
+    "drawVideo": "Disegna video",
+    "drawPose": "Disegna la posa",
+    "drawSignWriting": "Disegna la scrittura del segno",
+    "animatePose": "Anima la posa",
+    "poseViewer": {
+      "pose": "Scheletro",
+      "avatar": "Avatar",
+      "person": "Umano"
+    },
+    "title": "Impostazioni",
+    "close": "Chiudi le impostazioni",
+    "support": {
+      "title": "Supporto",
+      "feedback": {
+        "title": "Feedback",
+        "send": "Invia commenti"
+      },
+      "about": {
+        "title": "Di"
+      }
+    },
+    "voice": {
+      "title": "Voce",
+      "input": {
+        "title": "Ingresso"
+      },
+      "output": {
+        "title": "Produzione"
+      }
+    },
+    "other": {
+      "title": "Altro",
+      "offline": {
+        "title": "disconnesso",
+        "files": {
+          "pix2pixGenerator": "Generatore umano fotorealistico",
+          "pix2pixUpscaler": "Upscaler umano fotorealistico",
+          "avatarGlb": "Avatar 3D",
+          "avatarUsdz": "Avatar 3D per AR su iOS",
+          "translation": "Traduzione",
+          "translation.spokenToSigned": "Da parlato a firmato",
+          "translation.signedToSpoken": "Firmato a parlato"
+        },
+        "actions": {
+          "toggle": "Attiva/disattiva {{label}}",
+          "download": "Scarica il modello offline",
+          "delete": "Elimina la cache del modello offline",
+          "reDownload": "Scarica nuovamente il modello offline"
+        }
+      },
+      "appearance": {
+        "title": "Aspetto esteriore",
+        "action": "Modifica aspetto",
+        "random": "Ottieni una foto a caso",
+        "upload": "Carica la tua foto"
+      }
+    }
+  },
+  "to": "{{a}} → {{b}}",
+  "languages.spoken": "Tutti",
+  "countries.signed": "Tutti"
+}

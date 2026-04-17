@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "halaman tidak ditemukan",
+    "doesNotExist": "Maaf, halaman yang Anda cari tidak ada.",
+    "errorLogged": "Kami telah mencatat kesalahan tersebut dan akan menyelidikinya.",
+    "goHome": "Pergi ke rumah"
+  },
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Shift"
+  },
+  "translate": {
+    "title": "Penerjemah Isyarat",
+    "language-selector": {
+      "detected": "{{lang}} - Terdeteksi",
+      "detect": "Deteksi bahasa",
+      "more": "Lebih Banyak Bahasa"
+    },
+    "input": {
+      "text": "Teks",
+      "webcam": "Kamera web",
+      "upload": "Mengunggah"
+    },
+    "swapLanguages": "Tukar bahasa",
+    "upload": {
+      "types": "Upload .mp4, .ogv, atau .webm.",
+      "browse": "Jelajahi komputer",
+      "title": "Pilih video"
+    },
+    "spoken-to-signed": {
+      "text": "Teks Bahasa Lisan",
+      "actions": {
+        "download": "Unduh Terjemahan",
+        "copy": "Salin Terjemahan",
+        "share": "Bagikan Terjemahan"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Memuat model video manusia",
+          "generating": "Membuat video"
+        }
+      },
+      "placeholder": "Masukkan teks"
+    },
+    "description": "Terjemahan Bahasa Isyarat yang Mudah dengan Model Real-Time Mutakhir. ",
+    "suggestions": {
+      "translate-from": "Diterjemahkan dari",
+      "did-you-mean": "Apakah yang kamu maksud"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Salin Terjemahan"
+      }
+    },
+    "logo": "Penerjemah"
+  },
+  "landing": {
+    "try": "Terjemahkan sekarang",
+    "about": {
+      "hero": {
+        "title": "Terjemahkan antara 40+ bahasa isyarat dan bahasa lisan secara real-time.",
+        "img": "Contoh terjemahan langsung antara Bahasa Isyarat Amerika dan Bahasa Inggris"
+      },
+      "direction": {
+        "spoken-to-signed": "Terjemahkan dari bahasa lisan ke bahasa isyarat",
+        "signed-to-spoken": "Atau dari bahasa isyarat ke bahasa lisan"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Terjemahan Waktu Nyata",
+          "subtitle": "Terjemahkan antara 40+ bahasa isyarat dan lisan secara real-time",
+          "description": "Aplikasi kami memungkinkan Anda berkomunikasi secara alami dan mudah dengan siapa pun, di mana pun, kapan pun, dalam bahasa isyarat Anda sendiri."
+        },
+        "multilingual": {
+          "title": "Dukungan Multibahasa",
+          "subtitle": "Terjemahkan antara bahasa isyarat dan bahasa lisan yang berbeda",
+          "description": "Aplikasi kami mendukung berbagai bahasa isyarat dan bahasa lisan, sehingga Anda dapat berkomunikasi dengan orang-orang dari berbagai negara dan budaya."
+        },
+        "appearance": {
+          "title": "Penampilan yang Dapat Disesuaikan",
+          "subtitle": "Avatar bahasa isyarat foto realistis kami menawarkan beragam pilihan penyesuaian untuk memenuhi kebutuhan spesifik Anda.",
+          "description": "Baik Anda ingin membuat avatar yang mirip dengan Anda atau membuat karakter unik, opsi penyesuaian kami memungkinkan Anda mengekspresikan diri dengan cara yang terasa autentik dan nyata bagi Anda."
+        },
+        "open-source": {
+          "title": "Proyek Sumber Terbuka",
+          "subtitle": "Signexia adalah proyek sumber terbuka yang memungkinkan komunitas berkontribusi dan menyempurnakan fitur-fiturnya.",
+          "description": "Dengan membagikan kode sumber kami, kami bertujuan untuk mendorong kolaborasi dan transparansi. "
+        },
+        "offline": {
+          "title": "Fungsi Luar Talian",
+          "subtitle": "Signexia berfungsi di mana saja, bahkan saat offline di pesawat.",
+          "description": "Baik Anda sedang bepergian, di daerah terpencil, atau tanpa internet, aplikasi kami memastikan Anda selalu dapat menerjemahkan bahasa lisan atau tulisan ke dalam bahasa isyarat, sehingga alat komunikasi penting tetap mudah dijangkau."
+        }
+      },
+      "title": "Tentang Kami"
+    },
+    "contribute": {
+      "title": "Beri kontribusi"
+    },
+    "nav": {
+      "pages": "Navigasikan ke halaman lain",
+      "legal": "Arahkan ke halaman hukum"
+    }
+  },
+  "text-to-speech": {
+    "play": "Simak",
+    "cancel": "Berhenti",
+    "unavailable": "Keluaran suara tidak tersedia untuk bahasa yang dipilih"
+  },
+  "speech-to-text": {
+    "start": "Terjemahkan dengan suara",
+    "stop": "Hentikan terjemahan dengan suara",
+    "not-allowed": "Perlu izin untuk menggunakan mikrofon",
+    "language-not-supported": "Bahasa yang dipilih tidak didukung",
+    "browser-not-supported": "Masukan suara tidak didukung di browser ini",
+    "service-not-allowed": "Perlu izin untuk menggunakan pengenalan suara"
+  },
+  "legal": {
+    "terms": {
+      "title": "Persyaratan"
+    },
+    "privacy": {
+      "title": "Privasi"
+    },
+    "licenses": {
+      "title": "Perangkat Lunak dan Lisensi"
+    },
+    "title": "Legal"
+  },
+  "playground": {
+    "title": "Taman Bermain Pemrosesan Bahasa Isyarat"
+  },
+  "benchmark": {
+    "title": "Tolok ukur",
+    "stats": {
+      "cld": {
+        "title": "Identifikasi Bahasa Lisan",
+        "import": "Modul Impor",
+        "load": "Muat Model",
+        "find": "Identifikasi Teks",
+        "create": "Membuat"
+      },
+      "pix2pix": {
+        "title": "Penampil Pose Manusia",
+        "init": "Inisi Pekerja",
+        "load": "Muat Model",
+        "first-frame": "Inferensi Bingkai Pertama",
+        "frame": "Inferensi Bingkai"
+      },
+      "pose": {
+        "title": "Estimasi Pose Seluruh Tubuh",
+        "load": "Beban Model",
+        "first-frame": "Inferensi Bingkai Pertama",
+        "frame": "Inferensi Bingkai"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Kamera mulai",
+      "turnedOff": "Kamera dimatikan",
+      "notConnected": "Kamera tidak terhubung",
+      "permissionDenied": "Izin kamera ditolak"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Matikan kamera",
+        "off": "Nyalakan kamera"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Memuat Estimasi Pose..."
+  },
+  "language-selector": {
+    "label": "Ubah bahasa atau wilayah"
+  },
+  "settings": {
+    "detectSign": "Deteksi Tanda",
+    "drawVideo": "Menggambar Video",
+    "drawPose": "Menggambar Pose",
+    "drawSignWriting": "Menggambar Tanda Menulis",
+    "animatePose": "Pose Animasi",
+    "poseViewer": {
+      "pose": "Kerangka",
+      "avatar": "Avatar",
+      "person": "Manusia"
+    },
+    "title": "Pengaturan",
+    "close": "Tutup pengaturan",
+    "support": {
+      "title": "Mendukung",
+      "feedback": {
+        "title": "Masukan",
+        "send": "Kirim masukan"
+      },
+      "about": {
+        "title": "Tentang"
+      }
+    },
+    "voice": {
+      "title": "Suara",
+      "input": {
+        "title": "Memasukkan"
+      },
+      "output": {
+        "title": "Keluaran"
+      }
+    },
+    "other": {
+      "title": "Lainnya",
+      "offline": {
+        "title": "Offline",
+        "files": {
+          "pix2pixGenerator": "Generator manusia foto-realistis",
+          "pix2pixUpscaler": "Upscaler manusia foto-realistis",
+          "avatarGlb": "Avatar 3D",
+          "avatarUsdz": "Avatar 3D untuk AR di iOS",
+          "translation": "Terjemahan",
+          "translation.spokenToSigned": "Diucapkan-untuk-Ditandatangani",
+          "translation.signedToSpoken": "Ditandatangani-untuk-Diucapkan"
+        },
+        "actions": {
+          "toggle": "Alihkan {{label}}",
+          "download": "Unduh Model Offline",
+          "delete": "Bersihkan Cache Model Offline",
+          "reDownload": "Unduh Ulang Model Offline"
+        }
+      },
+      "appearance": {
+        "title": "Penampilan",
+        "action": "Ubah penampilan",
+        "random": "Dapatkan foto acak",
+        "upload": "Unggah foto Anda sendiri"
+      }
+    }
+  },
+  "to": "{{a}} → {{b}}",
+  "languages.spoken": "Semua",
+  "countries.signed": "Semua"
+}

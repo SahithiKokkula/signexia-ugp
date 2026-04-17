@@ -1,0 +1,59 @@
+@if (isMobile.matches) {
+  <ion-menu contentId="main-content" class="modern-menu">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Navigation</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-list-header lines="full">
+          <ion-label>Pages</ion-label>
+        </ion-list-header>
+        <ion-menu-toggle>
+          @for (page of pages; track page.key) {
+            <ion-item [routerLink]="page.route" queryParamsHandling="preserve" class="menu-item">
+              <ion-label>{{ 'landing.' + page.key + '.title' | transloco }}</ion-label>
+            </ion-item>
+          }
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+    <ion-footer>
+      <ion-button routerLink="/" color="secondary" queryParamsHandling="preserve" fill="solid" expand="block" shape="round">
+        {{ 'landing.try' | transloco }}
+        <ion-icon slot="end" name="arrow-forward" />
+      </ion-button>
+    </ion-footer>
+  </ion-menu>
+}
+
+<ion-header [translucent]="true" class="modern-header">
+  <ion-toolbar color="primary">
+    @if (isMobile.matches) {
+      <ion-buttons slot="start">
+        <ion-menu-button auto-hide="true" color="light"></ion-menu-button>
+      </ion-buttons>
+    }
+    <ion-title class="logo-title">Sign MT</ion-title>
+    @if (!isMobile.matches) {
+      <ion-buttons slot="primary">
+        <ion-button routerLink="/" queryParamsHandling="preserve" color="secondary" shape="round" fill="solid">
+          {{ 'landing.try' | transloco }}
+          <ion-icon slot="end" name="arrow-forward" />
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="secondary">
+        @for (page of pages; track page.key) {
+          <ion-button [routerLink]="page.route" queryParamsHandling="preserve" fill="outline" shape="round" size="small" color="light">
+            {{ 'landing.' + page.key + '.title' | transloco }}
+          </ion-button>
+        }
+      </ion-buttons>
+    }
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" id="main-content" class="modern-content">
+  <router-outlet />
+</ion-content>

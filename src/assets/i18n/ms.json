@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "Laman tidak dijumpai",
+    "doesNotExist": "Maaf, halaman yang anda cari tidak wujud.",
+    "errorLogged": "Kami telah melog ralat dan akan menelitinya.",
+    "goHome": "Pulang ke rumah"
+  },
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Shift"
+  },
+  "translate": {
+    "title": "Penterjemah Isyarat",
+    "language-selector": {
+      "detected": "{{lang}} - Dikesan",
+      "detect": "Kesan bahasa",
+      "more": "Lebih Banyak Bahasa"
+    },
+    "input": {
+      "text": "Teks",
+      "webcam": "Kamera web",
+      "upload": "Muat naik"
+    },
+    "swapLanguages": "Tukar bahasa",
+    "upload": {
+      "types": "Muat naik .mp4, .ogv atau .webm.",
+      "browse": "Semak imbas komputer anda",
+      "title": "Pilih video"
+    },
+    "spoken-to-signed": {
+      "text": "Teks Bahasa Pertuturan",
+      "actions": {
+        "download": "Muat turun Terjemahan",
+        "copy": "Salin Terjemahan",
+        "share": "Kongsi Terjemahan"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Memuatkan model video manusia",
+          "generating": "Menjana video"
+        }
+      },
+      "placeholder": "Masukkan Teks"
+    },
+    "description": "Terjemahan Bahasa Isyarat yang Mudah dengan Model Masa Nyata Termaju. ",
+    "suggestions": {
+      "translate-from": "Terjemah dari",
+      "did-you-mean": "Adakah anda maksudkan"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Salin Terjemahan"
+      }
+    },
+    "logo": "Penterjemah"
+  },
+  "landing": {
+    "try": "Terjemah sekarang",
+    "about": {
+      "hero": {
+        "title": "Terjemah antara 40+ bahasa yang ditandatangani dan dituturkan dalam masa nyata.",
+        "img": "Contoh terjemahan langsung antara Bahasa Isyarat Amerika dan Bahasa Inggeris"
+      },
+      "direction": {
+        "spoken-to-signed": "Terjemah daripada bahasa pertuturan kepada bahasa isyarat",
+        "signed-to-spoken": "Atau daripada bahasa yang ditandatangani kepada bahasa yang dituturkan"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Terjemahan Masa Nyata",
+          "subtitle": "Terjemah antara 40+ bahasa yang ditandatangani dan dituturkan dalam masa nyata",
+          "description": "Aplikasi kami membolehkan anda berkomunikasi secara semula jadi dan mudah dengan sesiapa sahaja, di mana-mana, pada bila-bila masa, dalam bahasa isyarat anda sendiri."
+        },
+        "multilingual": {
+          "title": "Sokongan berbilang bahasa",
+          "subtitle": "Terjemah antara bahasa isyarat dan bahasa pertuturan yang berbeza",
+          "description": "Apl kami menyokong berbilang bahasa isyarat dan bahasa pertuturan, jadi anda boleh berkomunikasi dengan orang dari negara dan budaya yang berbeza."
+        },
+        "appearance": {
+          "title": "Penampilan Boleh Disesuaikan",
+          "subtitle": "Avatar bahasa isyarat foto realistik kami menawarkan pelbagai pilihan penyesuaian untuk memenuhi keperluan khusus anda.",
+          "description": "Sama ada anda ingin mencipta avatar yang kelihatan seperti anda atau mencipta watak yang unik, pilihan penyesuaian kami membolehkan anda mengekspresikan diri anda dalam cara yang dirasakan tulen dan benar kepada anda."
+        },
+        "open-source": {
+          "title": "Projek Sumber Terbuka",
+          "subtitle": "Sign Terjemah ialah projek sumber terbuka, membenarkan komuniti menyumbang dan meningkatkan cirinya.",
+          "description": "Dengan berkongsi kod sumber kami, kami berhasrat untuk memupuk kerjasama dan ketelusan. "
+        },
+        "offline": {
+          "title": "Fungsi Luar Talian",
+          "subtitle": "Tandatangan Terjemah berfungsi di mana-mana, walaupun di luar talian dalam kapal terbang.",
+          "description": "Sama ada anda melancong, di kawasan terpencil atau tanpa internet, apl kami memastikan anda sentiasa boleh menterjemah bahasa pertuturan atau bertulis ke dalam bahasa isyarat, memastikan alat komunikasi yang penting di hujung jari anda."
+        }
+      },
+      "title": "Tentang Kami"
+    },
+    "contribute": {
+      "title": "Sumbangkan"
+    },
+    "nav": {
+      "pages": "Navigasi ke halaman lain",
+      "legal": "Navigasi ke halaman undang-undang"
+    }
+  },
+  "text-to-speech": {
+    "play": "Dengar",
+    "cancel": "Berhenti",
+    "unavailable": "Output suara tidak tersedia untuk bahasa yang dipilih"
+  },
+  "speech-to-text": {
+    "start": "Terjemahkan melalui suara",
+    "stop": "Hentikan terjemahan melalui suara",
+    "not-allowed": "Perlu kebenaran untuk menggunakan mikrofon",
+    "language-not-supported": "Bahasa yang dipilih tidak disokong",
+    "browser-not-supported": "Input suara tidak disokong pada penyemak imbas ini",
+    "service-not-allowed": "Perlu kebenaran untuk menggunakan pengecaman pertuturan"
+  },
+  "legal": {
+    "terms": {
+      "title": "Syarat"
+    },
+    "privacy": {
+      "title": "Privasi"
+    },
+    "licenses": {
+      "title": "Perisian dan Lesen"
+    },
+    "title": "sah"
+  },
+  "playground": {
+    "title": "Taman Permainan Pemprosesan Bahasa Isyarat"
+  },
+  "benchmark": {
+    "title": "Penanda aras",
+    "stats": {
+      "cld": {
+        "title": "Pengenalan Bahasa Pertuturan",
+        "import": "Modul Import",
+        "load": "Muatkan Model",
+        "find": "Kenal pasti Teks",
+        "create": "Buat"
+      },
+      "pix2pix": {
+        "title": "Pemapar Pose Manusia",
+        "init": "Pekerja Init",
+        "load": "Muatkan Model",
+        "first-frame": "Inferens Bingkai Pertama",
+        "frame": "Inferens Bingkai"
+      },
+      "pose": {
+        "title": "Anggaran Pose Badan Penuh",
+        "load": "Beban Model",
+        "first-frame": "Inferens Bingkai Pertama",
+        "frame": "Inferens Bingkai"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Kamera bermula",
+      "turnedOff": "Kamera dimatikan",
+      "notConnected": "Kamera tidak disambungkan",
+      "permissionDenied": "Kebenaran kamera ditolak"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Matikan kamera",
+        "off": "Hidupkan kamera"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Memuatkan Anggaran Pose..."
+  },
+  "language-selector": {
+    "label": "Tukar bahasa atau wilayah"
+  },
+  "settings": {
+    "detectSign": "Tanda Kesan",
+    "drawVideo": "Lukis Video",
+    "drawPose": "Lukis Pose",
+    "drawSignWriting": "Lukis Tulisan Tanda",
+    "animatePose": "Animasikan Pose",
+    "poseViewer": {
+      "pose": "Rangka",
+      "avatar": "Avatar",
+      "person": "Manusia"
+    },
+    "title": "tetapan",
+    "close": "Tutup tetapan",
+    "support": {
+      "title": "Sokongan",
+      "feedback": {
+        "title": "Maklum balas",
+        "send": "Hantar maklum balas"
+      },
+      "about": {
+        "title": "Tentang"
+      }
+    },
+    "voice": {
+      "title": "Suara",
+      "input": {
+        "title": "Input"
+      },
+      "output": {
+        "title": "Pengeluaran"
+      }
+    },
+    "other": {
+      "title": "Lain-lain",
+      "offline": {
+        "title": "Luar talian",
+        "files": {
+          "pix2pixGenerator": "Penjana manusia foto-realistik",
+          "pix2pixUpscaler": "Penskala manusia yang realistik foto",
+          "avatarGlb": "Avatar 3D",
+          "avatarUsdz": "Avatar 3D untuk AR pada iOS",
+          "translation": "Terjemahan",
+          "translation.spokenToSigned": "Diucapkan kepada Ditandatangani",
+          "translation.signedToSpoken": "Ditandatangani-untuk-Dituturkan"
+        },
+        "actions": {
+          "toggle": "Togol {{label}}",
+          "download": "Muat turun Model Luar Talian",
+          "delete": "Bersihkan Cache Model Luar Talian",
+          "reDownload": "Muat Turun Semula Model Luar Talian"
+        }
+      },
+      "appearance": {
+        "title": "Penampilan",
+        "action": "Ubah suai penampilan",
+        "random": "Dapatkan foto rawak",
+        "upload": "Muat naik foto anda sendiri"
+      }
+    }
+  },
+  "to": "{{a}} → {{b}}",
+  "languages.spoken": "Semua",
+  "countries.signed": "Semua"
+}

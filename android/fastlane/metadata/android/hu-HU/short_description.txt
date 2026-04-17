@@ -1,0 +1,1 @@
+Könnyű jelnyelvi fordítás élvonalbeli valós idejű modellekkel. 

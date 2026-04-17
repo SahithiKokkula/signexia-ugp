@@ -1,0 +1,241 @@
+{
+  "404": {
+    "title": "Rûpel nehat dîtin",
+    "doesNotExist": "Bibore, rûpela ku hûn lê digeriyan tune.",
+    "errorLogged": "Me xeletî tomar kir û em ê lê bigerin.",
+    "goHome": "Biçe Malê"
+  },
+  "keyboard": {
+    "ctrl": "Ctrl",
+    "shift": "Üst Karakter"
+  },
+  "translate": {
+    "title": "Wergêrtina Nîşan",
+    "language-selector": {
+      "detected": "{{lang}} - Hat dîtin",
+      "detect": "Dili algıla",
+      "more": "Zêdetir Ziman"
+    },
+    "input": {
+      "text": "Metin",
+      "webcam": "Webkamera",
+      "upload": "Barkirin"
+    },
+    "swapLanguages": "Dil değiştir",
+    "upload": {
+      "types": ".mp4, .ogv veya .webm dosyası yükleyin.",
+      "browse": "Bilgisayarınıza göz atın",
+      "title": "Vîdyoyek hilbijêrin"
+    },
+    "spoken-to-signed": {
+      "text": "Nivîsara Ziman Axaftinê",
+      "actions": {
+        "download": "Download Translation",
+        "copy": "Wergerandinê kopî bikin",
+        "share": "Share Werger"
+      },
+      "progress-bars": {
+        "human-pose-viewer": {
+          "loading": "Modela vîdyoya mirovî tê barkirin",
+          "generating": "Vîdyoyê diafirîne"
+        }
+      },
+      "placeholder": "Nivîsar binivîse"
+    },
+    "description": "Wergera Zimanê Îşaretê ya Bêhêz bi Modelên Dem-Rast ên Berbiçav. ",
+    "suggestions": {
+      "translate-from": "Wergerandin ji",
+      "did-you-mean": "Mebesta te bû"
+    },
+    "signed-to-spoken": {
+      "actions": {
+        "copy": "Wergerê kopî bikin"
+      }
+    },
+    "logo": "Wergêrtin"
+  },
+  "landing": {
+    "try": "Niha wergerîne",
+    "about": {
+      "hero": {
+        "title": "Di navbera 40+ zimanên îmzekirî û axaftinê de di dema rast de wergerînin.",
+        "img": "Nimûneya wergera zindî ya di navbera Zimanê îşaretek Amerîkî û Englishngilîzî de"
+      },
+      "direction": {
+        "spoken-to-signed": "Ji zimanên axaftinê wergerînin zimanên îşaretan",
+        "signed-to-spoken": "An jî ji zimanên îmzekirî ber bi zimanên axaftinê ve"
+      },
+      "benefits": {
+        "real-time": {
+          "title": "Wergera Rast-Time",
+          "subtitle": "Di navbera 40+ zimanên îmzekirî û axaftinê de di dema rast de wergerînin",
+          "description": "Serlêdana me dihêle hûn bi zimanê îşaretên xwe bi her kesî re, li her deverê, her dem bi xwezayî û bi hêsanî têkilî daynin."
+        },
+        "multilingual": {
+          "title": "Piştgiriya Pirzimanî",
+          "subtitle": "Di navbera zimanên cuda yên nîşanan û zimanên axaftinê de wergerînin",
+          "description": "Serlêdana me gelek zimanên îşaretan û zimanên axaftinê piştgirî dike, ji ber vê yekê hûn dikarin bi mirovên ji welat û çandên cihê re têkilî daynin."
+        },
+        "appearance": {
+          "title": "Appearance Customizable",
+          "subtitle": "Avatarên me yên zimanê îşaretan ên rastîn ên wêneyan cûrbecûr vebijarkên xwerûkirinê pêşkêşî dikin ku li gorî hewcedariyên weyên taybetî bin.",
+          "description": "Ma hûn dixwazin avatarek ku dişibe we biafirînin an jî karakterek bêhempa biafirînin, vebijarkên meya xwerû dihêlin ku hûn xwe bi rengek ku ji we re rast û rast hîs dike îfade bikin."
+        },
+        "open-source": {
+          "title": "Projeya Çavkaniya Vekirî",
+          "subtitle": "Signexia projeyek-çavkaniya vekirî ye, ku dihêle civak tevkariyê bike û taybetmendiyên xwe zêde bike.",
+          "description": "Bi parvekirina koda çavkaniya xwe, mebesta me ew e ku hevkarî û zelaliyê pêşve bibin. "
+        },
+        "offline": {
+          "title": "Fonksiyona Offline",
+          "subtitle": "Sign Werger li her derê dixebite, tewra negirêdayî di balafirê de.",
+          "description": "Çi hûn rêwîtiyê dikin, li deverek dûr, an bê înternet, sepana me piştrast dike ku hûn her gav dikarin zimanê axaftinê an nivîskî wergerînin zimanê îşaretan, û amûrên ragihandinê yên bingehîn li ber destên we bigirin."
+        }
+      },
+      "title": "Çûna nava"
+    },
+    "contribute": {
+      "title": "Beşdar bibe"
+    },
+    "nav": {
+      "pages": "Biçe ser rûpelên din",
+      "legal": "Li ser rûpelên qanûnî bigerin"
+    }
+  },
+  "text-to-speech": {
+    "play": "Dinleyin",
+    "cancel": "Rawestan",
+    "unavailable": "Derketina deng ji bo zimanê hilbijartî peyda nabe"
+  },
+  "speech-to-text": {
+    "start": "Sesle çeviri",
+    "stop": "Wergera bi deng raweste",
+    "not-allowed": "Ji bo bikaranîna mîkrofonê destûr lazim e",
+    "language-not-supported": "Zimanê hilbijartî nayê piştgirî kirin",
+    "browser-not-supported": "Ketina deng li ser vê gerokê nayê piştgirî kirin",
+    "service-not-allowed": "Ji bo bikaranîna naskirina axaftinê destûr lazim e"
+  },
+  "legal": {
+    "terms": {
+      "title": "Têgeh"
+    },
+    "privacy": {
+      "title": "Nepenî"
+    },
+    "licenses": {
+      "title": "Nivîsbarî û Lîsans"
+    },
+    "title": "Mafî"
+  },
+  "playground": {
+    "title": "Lîstika Pêvajoya Zimanê Îşaretê"
+  },
+  "benchmark": {
+    "title": "Benchmark",
+    "stats": {
+      "cld": {
+        "title": "Nasnameya Zimanê axaftinê",
+        "import": "Import Module",
+        "load": "Modela barkirinê",
+        "find": "Nasnameya Nivîsar",
+        "create": "Xûliqandin"
+      },
+      "pix2pix": {
+        "title": "Dîmenderê Pozê Mirovan",
+        "init": "Karker Init",
+        "load": "Modela barkirinê",
+        "first-frame": "Encama Çarçoveya Yekem",
+        "frame": "Encama çarçoveyê"
+      },
+      "pose": {
+        "title": "Texmîna Pozê Tevahiya Body",
+        "load": "Model Load",
+        "first-frame": "Encama Çarçoveya Yekem",
+        "frame": "Encama çarçoveyê"
+      }
+    }
+  },
+  "video": {
+    "errors": {
+      "starting": "Kamera dest pê dike",
+      "turnedOff": "Kamera girt",
+      "notConnected": "Kamera ne girêdayî ye",
+      "permissionDenied": "Destûra kamerayê hat redkirin"
+    },
+    "controls": {
+      "receiveVideo": {
+        "on": "Kamera vemirînin",
+        "off": "Kamera veke"
+      }
+    }
+  },
+  "pose": {
+    "loading": "Barkirina Texmîna Pozê..."
+  },
+  "language-selector": {
+    "label": "Ziman an herêmê biguherînin"
+  },
+  "settings": {
+    "detectSign": "Detect Sign",
+    "drawVideo": "Vîdyoyê Draw",
+    "drawPose": "Draw Pose",
+    "drawSignWriting": "Draw Sign Writing",
+    "animatePose": "Animate Pose",
+    "poseViewer": {
+      "pose": "Hestî",
+      "avatar": "Avatar",
+      "person": "Mirov"
+    },
+    "title": "Settings",
+    "close": "Mîhengan bigire",
+    "support": {
+      "title": "Alîkarî",
+      "feedback": {
+        "title": "Feedback",
+        "send": "Geri bildirim gönder"
+      },
+      "about": {
+        "title": "Ji dor"
+      }
+    },
+    "voice": {
+      "title": "Deng",
+      "input": {
+        "title": "Beyan"
+      },
+      "output": {
+        "title": "Karûabr"
+      }
+    },
+    "other": {
+      "title": "Yên din",
+      "offline": {
+        "title": "Offline",
+        "files": {
+          "pix2pixGenerator": "Hilberînerê mirovî yê wêne-realîst",
+          "pix2pixUpscaler": "Upscaler mirovê wêne-realîst",
+          "avatarGlb": "3D Avatar",
+          "avatarUsdz": "3D Avatar ji bo AR li ser iOS",
+          "translation": "Werger",
+          "translation.spokenToSigned": "Peyv-bi-îmze kirin",
+          "translation.signedToSpoken": "Îmze kirin-ji-gotin"
+        },
+        "actions": {
+          "toggle": "{{label}} biguherîne",
+          "download": "Modela Offline dakêşin",
+          "delete": "Cache Modela Offline Paqij bike",
+          "reDownload": "Modela Offline ji nû ve dakêşin"
+        }
+      },
+      "appearance": {
+        "title": "Xuyabûnî",
+        "action": "Dîmenê biguherînin",
+        "random": "Wêneyek rasthatî bistînin",
+        "upload": "Wêneya xwe barkirin"
+      }
+    }
+  },
+  "to": "{{a}} ← {{b}}",
+  "languages.spoken": "Gişt",
+  "countries.signed": "Gişt"
+}
