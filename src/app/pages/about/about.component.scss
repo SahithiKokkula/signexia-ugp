@@ -1,0 +1,110 @@
+:host {
+  display: block;
+  min-height: 100vh;
+
+  background:
+
+    /* top cyan glow */
+    radial-gradient(circle at top center, rgba(0, 255, 255, 0.45) 0%, rgba(0, 255, 255, 0.18) 25%, transparent 55%),
+    /* left soft cyan */
+    radial-gradient(circle at top left, rgba(173, 216, 230, 0.5) 0%, rgba(173, 216, 230, 0.18) 30%, transparent 60%),
+    /* right cyan glow */
+    radial-gradient(circle at top right, rgba(68, 222, 222, 0.35) 0%, rgba(0, 255, 255, 0.12) 30%, transparent 60%),
+    /* base white fade */ linear-gradient(to bottom, #f8fdff 0%, #eefcff 35%, #ffffff 100%);
+
+  background-attachment: fixed;
+  overflow-x: hidden;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* MAIN PAGE */
+
+.about-page {
+  min-height: 100vh;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-top: 40px;
+}
+
+.hero-section h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.hero-section p {
+  font-size: 20px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* FEATURES SECTION */
+
+.features-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+/* FEATURE CARD */
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+
+  padding: 28px;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.08),
+    0 0 20px rgba(0, 255, 255, 0.08);
+
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 14px 30px rgba(0, 0, 0, 0.12),
+    0 0 28px rgba(0, 255, 255, 0.18);
+}
+
+.feature-card h2 {
+  font-size: 24px;
+  margin-bottom: 14px;
+  color: #111;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 38px;
+  }
+
+  .hero-section p {
+    font-size: 17px;
+  }
+
+  .feature-card {
+    padding: 22px;
+  }
+}
