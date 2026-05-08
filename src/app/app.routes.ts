@@ -29,6 +29,14 @@ export const routes: Routes = [
         ],
       },
       {
+        path: 'about',
+        loadComponent: () => import('./pages/about/about.component').then(m => m.AboutComponent),
+      },
+      {
+        path: 'welcome',
+        loadComponent: () => import('./pages/welcome/welcome.component').then(m => m.WelcomeComponent),
+      },
+      {
         path: 'translate',
         redirectTo: '',
       },

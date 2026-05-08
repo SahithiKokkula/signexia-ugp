@@ -1,5 +1,6 @@
 :host {
-  background: #202124;
+  background: radial-gradient(circle at top, #1e3a8a 0%, #0b1120 45%, #020617 100%);
+
   display: flex;
   position: relative;
 
@@ -8,13 +9,33 @@
   overflow: hidden;
 
   min-height: 216px;
+
+  border-radius: 24px;
+
+  border: 1px solid rgba(99, 102, 241, 0.15);
+
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.45),
+    0 0 30px rgba(99, 102, 241, 0.12);
+
+  backdrop-filter: blur(20px);
 }
 
 p {
   margin: auto;
+
   text-align: center;
+
   font-size: 36px;
+
   line-height: 48px;
+
+  font-weight: 700;
+
+  background: linear-gradient(to right, #ffffff, #c7d2fe, #818cf8);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #video-container {
@@ -27,16 +48,19 @@ p {
 
   canvas {
     transform-origin: top left;
+
+    border-radius: 20px;
   }
 }
 
-/* Transform origin does not support "start". For RTL languages, we need to flip the transform origin. */
+/* RTL support */
 ::ng-deep html[dir='rtl'] #video-container canvas {
   transform-origin: top right !important;
 }
 
 app-video-controls {
   position: absolute;
+
   bottom: 16px;
   left: 0;
   right: 0;
@@ -50,21 +74,33 @@ app-video-help {
 }
 
 .video-overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(10px);
+
   height: 100%;
   width: 100%;
+
   position: absolute;
   top: 0;
+
   display: flex;
   align-items: center;
   justify-content: center;
 
+  transition: all 0.3s ease;
+
   ion-icon {
     font-size: 4em;
+
+    color: #818cf8;
+
+    filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.5));
   }
 
   &:hover {
     cursor: pointer;
-    background: rgba(0, 0, 0, 0.4);
+
+    background: rgba(0, 0, 0, 0.45);
   }
 }

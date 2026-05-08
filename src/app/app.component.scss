@@ -1,0 +1,22 @@
+/* SOFT CYAN PREMIUM BACKGROUND */
+
+html,
+body,
+ion-app,
+ion-content {
+  background:
+
+    /* top cyan glow */
+    radial-gradient(circle at top center, rgba(0, 255, 255, 0.45) 0%, rgba(0, 255, 255, 0.18) 25%, transparent 55%),
+    /* left soft cyan */
+    radial-gradient(circle at top left, rgba(173, 216, 230, 0.5) 0%, rgba(173, 216, 230, 0.18) 30%, transparent 60%),
+    /* right cyan glow */
+    radial-gradient(circle at top right, rgba(68, 222, 222, 0.35) 0%, rgba(0, 255, 255, 0.12) 30%, transparent 60%),
+    /* base white fade */ linear-gradient(to bottom, #f8fdff 0%, #eefcff 35%, #ffffff 100%);
+
+  min-height: 100vh;
+
+  background-attachment: fixed;
+
+  overflow-x: hidden;
+}

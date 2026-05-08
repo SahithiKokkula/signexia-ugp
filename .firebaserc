@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "sign-mt"
+    "default": ""
   },
   "targets": {
     "sign-mt": {
